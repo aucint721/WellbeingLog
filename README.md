@@ -104,7 +104,7 @@ Wellbeing Log/
 
 - **Bundle ID**: aucint.Wellbeing-Log
 - **Product ID**: wellbeing_log_premium
-- **Pricing**: $9.99 USD (one-time purchase)
+- **Pricing**: AUD 9.99 (one-time purchase)
 - **Category**: Education > Productivity
 - **Platform**: iOS (iPhone & iPad)
 
