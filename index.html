@@ -73,6 +73,23 @@
             margin-top: 0;
         }
         
+        .trial-section {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .premium-section {
+            background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        
         .download-section {
             text-align: center;
             background: linear-gradient(135deg, #007aff 0%, #5856d6 100%);
@@ -99,19 +116,30 @@
             transform: translateY(-2px);
         }
         
-        .contact-info {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 20px 0;
+        .status-badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-left: 10px;
         }
         
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #86868b;
-            border-top: 1px solid #d2d2d7;
-            margin-top: 40px;
+        .update-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .update-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .update-list li:before {
+            content: "✅ ";
+            margin-right: 8px;
         }
         
         @media (max-width: 768px) {
@@ -130,21 +158,30 @@
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Wellbeing Log</h1>
-            <p>Student Room Management System</p>
-        </div>
-    </header>
-
     <div class="container">
+        <header>
+            <h1>Wellbeing Log <span class="status-badge">v1.0.0</span></h1>
+            <p>Student Room Management System for Educational Institutions</p>
+        </header>
+
         <div class="section">
             <h2>About Wellbeing Log</h2>
-            <p>Wellbeing Log is a comprehensive school management app designed to track student wellbeing and manage room-based student logging. Perfect for schools, counselors, and administrators who need to monitor student attendance and wellbeing across different support rooms.</p>
+            <p>Wellbeing Log is a comprehensive iOS app designed for schools, counselors, and administrators who need to monitor student attendance and wellbeing across different support rooms. The app provides real-time tracking, data management, and detailed reporting capabilities.</p>
+        </div>
+
+        <div class="trial-section">
+            <h2>🎉 30-Day Free Trial</h2>
+            <p>Try all premium features completely free for 30 days. No credit card required, no commitment.</p>
+            <ul style="text-align: left; max-width: 600px; margin: 20px auto;">
+                <li>Full access to all features during trial</li>
+                <li>Unlimited student tracking and reporting</li>
+                <li>Complete data management capabilities</li>
+                <li>Seamless upgrade to premium when ready</li>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>Key Features</h2>
+            <h2>Core Features</h2>
             <div class="feature-grid">
                 <div class="feature-card">
                     <h3>Student Tracking</h3>
@@ -152,19 +189,19 @@
                 </div>
                 <div class="feature-card">
                     <h3>Real-time Headcount</h3>
-                    <p>Monitor current student counts in each room with live updates and detailed statistics.</p>
+                    <p>Monitor current student counts in each room with live updates and detailed student lists.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Data Management</h3>
-                    <p>Import and export student data via CSV files, with comprehensive backup and restore functionality.</p>
+                    <p>Import and export student data via CSV files with comprehensive backup functionality.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Statistics & Reports</h3>
-                    <p>Generate detailed reports on student movements, room usage, and wellbeing trends.</p>
+                    <p>Generate detailed reports on student movements and room usage with advanced analytics.</p>
                 </div>
                 <div class="feature-card">
                     <h3>Customizable Reasons</h3>
-                    <p>Set up custom reasons for student entries and exits to match your school's specific needs.</p>
+                    <p>Set up custom reasons for student entries and exits to match your institution's needs.</p>
                 </div>
                 <div class="feature-card">
                     <h3>iPad & iPhone Optimized</h3>
@@ -173,14 +210,57 @@
             </div>
         </div>
 
+        <div class="premium-section">
+            <h2>🌟 Premium Features</h2>
+            <p>After your 30-day trial, unlock these premium capabilities:</p>
+            <div class="feature-grid">
+                <div class="feature-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+                    <h3>Unlimited Student Tracking</h3>
+                    <p>No restrictions on student entries and exits with full historical data.</p>
+                </div>
+                <div class="feature-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+                    <h3>Advanced Statistics</h3>
+                    <p>Detailed analytics and comprehensive reporting capabilities.</p>
+                </div>
+                <div class="feature-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+                    <h3>Custom Reason Management</h3>
+                    <p>Full control over entry and exit reasons with unlimited customization.</p>
+                </div>
+                <div class="feature-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+                    <h3>Data Export & Backup</h3>
+                    <p>Comprehensive CSV import/export functionality with secure backup.</p>
+                </div>
+                <div class="feature-card" style="background: rgba(255,255,255,0.1); border-left-color: white;">
+                    <h3>Cross-Device Sync</h3>
+                    <p>Data persistence across multiple devices with iCloud integration.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Recent Updates & Improvements</h2>
+            <ul class="update-list">
+                <li><strong>In-App Purchase System:</strong> Complete StoreKit 2 implementation with secure transactions</li>
+                <li><strong>Trial Period:</strong> 30-day free trial for all new users with seamless upgrade</li>
+                <li><strong>Premium Features:</strong> Gated functionality with easy purchase flow</li>
+                <li><strong>Purchase Restoration:</strong> Automatic restore of previous purchases</li>
+                <li><strong>Error Handling:</strong> Comprehensive error handling for all purchase flows</li>
+                <li><strong>GitHub Repository:</strong> Complete source code and documentation available</li>
+                <li><strong>Support Website:</strong> Professional GitHub Pages support site</li>
+                <li><strong>App Store Ready:</strong> All submission requirements met and ready for review</li>
+            </ul>
+        </div>
+
         <div class="section">
             <h2>How to Use</h2>
             <ol>
-                <li><strong>Student In:</strong> Select a room, choose a student, and record their entry with a reason.</li>
-                <li><strong>Student Out:</strong> Find students currently in a room and record their exit with an outcome.</li>
-                <li><strong>Head Count:</strong> View current student counts and lists for each room.</li>
-                <li><strong>Statistics:</strong> Access detailed reports on student movements and room usage.</li>
-                <li><strong>Settings:</strong> Manage student data, import/export CSV files, and customize reasons.</li>
+                <li><strong>Start Your Trial:</strong> Download the app and enjoy 30 days of full access</li>
+                <li><strong>Student In:</strong> Select a room, choose a student, and record their entry with a reason</li>
+                <li><strong>Student Out:</strong> Find students currently in a room and record their exit with an outcome</li>
+                <li><strong>Head Count:</strong> View current student counts and lists for each room</li>
+                <li><strong>Statistics:</strong> Access detailed reports on student movements and room usage</li>
+                <li><strong>Settings:</strong> Manage student data, import/export CSV files, and customize reasons</li>
+                <li><strong>Upgrade to Premium:</strong> When ready, easily upgrade to unlock all features permanently</li>
             </ol>
         </div>
 
@@ -192,6 +272,18 @@
                 <li><strong>No Data Transmission:</strong> No information is sent to external servers</li>
                 <li><strong>No Tracking:</strong> No analytics or tracking data is collected</li>
                 <li><strong>Complete Control:</strong> You have full control over your data</li>
+                <li><strong>Secure Transactions:</strong> All purchases handled through Apple's secure StoreKit system</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>System Requirements</h2>
+            <ul>
+                <li><strong>iOS Version:</strong> iOS 18.5 or later</li>
+                <li><strong>Devices:</strong> iPhone and iPad</li>
+                <li><strong>Storage:</strong> 50 MB available space</li>
+                <li><strong>Permissions:</strong> File access for CSV import/export</li>
+                <li><strong>Internet:</strong> Required for App Store purchases (one-time)</li>
             </ul>
         </div>
 
@@ -204,43 +296,30 @@
 
         <div class="section">
             <h2>Support & Contact</h2>
-            <div class="contact-info">
-                <h3>Need Help?</h3>
-                <p>If you need assistance with Wellbeing Log, please contact us:</p>
-                <ul>
-                    <li><strong>Email:</strong> support@wellbeinglog.app</li>
-                    <li><strong>Support Hours:</strong> Monday - Friday, 9 AM - 5 PM EST</li>
-                    <li><strong>Response Time:</strong> Within 24 hours</li>
-                </ul>
-                
-                <h3>Common Questions</h3>
-                <p><strong>Q: How do I import student data?</strong><br>
-                A: Go to Settings → Student Management → Import Students and select a CSV file.</p>
-                
-                <p><strong>Q: Can I export my data?</strong><br>
-                A: Yes! Go to Settings → Student Management → Export Students to save your data.</p>
-                
-                <p><strong>Q: Is my data secure?</strong><br>
-                A: Yes, all data is stored locally on your device and never transmitted to external servers.</p>
-            </div>
+            <p>For support and assistance with Wellbeing Log:</p>
+            <ul>
+                <li><strong>Email:</strong> support@wellbeinglog.app</li>
+                <li><strong>Support Hours:</strong> Monday - Friday, 9 AM - 5 PM EST</li>
+                <li><strong>Response Time:</strong> Within 24 hours</li>
+                <li><strong>GitHub Repository:</strong> <a href="https://github.com/aucint721/WellbeingLog" target="_blank">https://github.com/aucint721/WellbeingLog</a></li>
+            </ul>
         </div>
 
         <div class="section">
-            <h2>System Requirements</h2>
+            <h2>App Store Information</h2>
             <ul>
-                <li><strong>iOS Version:</strong> iOS 18.5 or later</li>
-                <li><strong>Devices:</strong> iPhone and iPad</li>
-                <li><strong>Storage:</strong> 50 MB available space</li>
-                <li><strong>Permissions:</strong> File access for CSV import/export</li>
+                <li><strong>Bundle ID:</strong> aucint.Wellbeing-Log</li>
+                <li><strong>Product ID:</strong> wellbeing_log_premium</li>
+                <li><strong>Pricing:</strong> $9.99 USD (one-time purchase)</li>
+                <li><strong>Category:</strong> Education > Productivity</li>
+                <li><strong>Platform:</strong> iOS (iPhone & iPad)</li>
             </ul>
         </div>
-    </div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Wellbeing Log. All rights reserved.</p>
+        <footer style="text-align: center; padding: 20px; color: #666;">
+            <p>© 2024 Wellbeing Log. All rights reserved.</p>
             <p>Designed for educational institutions and student wellbeing management.</p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html> 
