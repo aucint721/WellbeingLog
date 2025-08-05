@@ -27,6 +27,7 @@
 		13B4896E2E40A782001C0C32 /* Wellbeing Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellbeing Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B4897B2E40A783001C0C32 /* Wellbeing LogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellbeing LogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B489852E40A783001C0C32 /* Wellbeing LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellbeing LogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B65B812E41F3660020CCAF /* Wellbeing Log.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Wellbeing Log.xctestplan"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		13B489652E40A782001C0C32 = {
 			isa = PBXGroup;
 			children = (
+				13B65B812E41F3660020CCAF /* Wellbeing Log.xctestplan */,
 				13B489702E40A782001C0C32 /* Wellbeing Log */,
 				13B4897E2E40A783001C0C32 /* Wellbeing LogTests */,
 				13B489882E40A783001C0C32 /* Wellbeing LogUITests */,
@@ -491,12 +493,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = STPHWUN56N;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "aucint.Wellbeing-LogUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellbeing Log.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wellbeing Log";
 				TEST_TARGET_NAME = "Wellbeing Log";
 			};
 			name = Debug;
@@ -508,12 +512,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = STPHWUN56N;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "aucint.Wellbeing-LogUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellbeing Log.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wellbeing Log";
 				TEST_TARGET_NAME = "Wellbeing Log";
 			};
 			name = Release;

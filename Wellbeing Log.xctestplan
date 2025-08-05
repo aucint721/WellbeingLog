@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "02C8424D-6DC8-4E66-A640-899F421A101A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Wellbeing Log.xcodeproj",
+      "identifier" : "13B4896D2E40A782001C0C32",
+      "name" : "Wellbeing Log"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Wellbeing Log.xcodeproj",
+        "identifier" : "13B4897A2E40A783001C0C32",
+        "name" : "Wellbeing LogTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Wellbeing Log.xcodeproj",
+        "identifier" : "13B489842E40A783001C0C32",
+        "name" : "Wellbeing LogUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
