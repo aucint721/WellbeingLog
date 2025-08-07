@@ -2,6 +2,7 @@ import SwiftUI
 
 struct LunchRoomOutView: View {
     @ObservedObject var studentStore: StudentStore
+    @StateObject private var syncManager = RoomSyncManager()
     @State private var lunchCount = 0
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.verticalSizeClass) var verticalSizeClass
@@ -26,7 +27,7 @@ struct LunchRoomOutView: View {
                         .font(.system(size: isIPad ? 32 : 24, weight: .semibold))
                         .foregroundColor(.secondary)
                     
-                    Text("\(lunchCount)")
+                    Text("\(syncManager.isConnected ? syncManager.lunchCount : lunchCount)")
                         .font(.system(size: isIPad ? 120 : 80, weight: .bold, design: .rounded))
                         .foregroundColor(.orange)
                         .padding(.horizontal, isIPad ? 60 : 40)
@@ -99,12 +100,20 @@ struct LunchRoomOutView: View {
             lunchCount -= 1
             logLunchEntry("Lunch Student", action: "OUT")
             saveLunchCount()
+            
+            // Update sync manager
+            syncManager.updateLunchCount(lunchCount)
+            syncManager.logActivity(room: "Lunch Room", action: "OUT", studentName: "Lunch Student")
         }
     }
     
     func resetLunchCount() {
         lunchCount = 0
         saveLunchCount()
+        
+        // Update sync manager
+        syncManager.updateLunchCount(lunchCount)
+        syncManager.logActivity(room: "Lunch Room", action: "RESET", studentName: "All Students")
     }
     
     func loadLunchCount() {
@@ -123,8 +132,11 @@ struct LunchRoomOutView: View {
         let urls = fileManager.urls(for: .documentDirectory, in: .userDomainMask)
         guard let documentsURL = urls.first else { return }
         
+        // Save to local file
         let countURL = documentsURL.appendingPathComponent("lunch_count.txt")
         try? String(lunchCount).write(to: countURL, atomically: true, encoding: .utf8)
+        
+
         
         // Notify other views that lunch count has changed
         NotificationCenter.default.post(name: .logDataCleared, object: nil)

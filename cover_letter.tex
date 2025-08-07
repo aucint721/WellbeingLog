@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{datetime2}
+
+% Page setup
+\geometry{top=2cm,left=2cm,right=2cm,bottom=2cm}
+\setlength{\parindent}{0pt}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\color{blue}}{}{0em}{}[\titlerule]
+
+% Contact Information Command
+\newcommand{\contact}[5]{
+    \begin{center}
+        {\Huge \textbf{#1}} \\[8pt]
+        #2 \,|\, #3 \,|\, \href{mailto:#4}{#4} \,|\, #5
+    \end{center}
+    \vspace{0.5cm}
+}
+
+% Date command
+\newcommand{\todaydate}{\DTMnow}
+
+\begin{document}
+
+%-------------------- HEADING --------------------
+\contact{Hennie Aucamp}
+{Doomadgee, QLD}
+{+61 XXX XXX XXX}
+{your.email@example.com}
+{LinkedIn: linkedin.com/in/hennieaucamp}
+
+%-------------------- DATE --------------------
+\begin{flushright}
+\todaydate
+\end{flushright}
+
+\vspace{1cm}
+
+%-------------------- RECIPIENT --------------------
+[Recipient Name] \\
+[Position Title] \\
+[School/Organization Name] \\
+[Address Line 1] \\
+[Address Line 2] \\
+[City, State, Postcode]
+
+\vspace{1cm}
+
+%-------------------- GREETING --------------------
+Dear [Recipient Name],
+
+%-------------------- OPENING PARAGRAPH --------------------
+I am writing to express my strong interest in the [Position Title] position at [School/Organization Name]. With my extensive experience in educational leadership, student services, and curriculum development, I am confident in my ability to contribute significantly to your team and support the school's mission of fostering student success and wellbeing.
+
+%-------------------- BODY PARAGRAPH 1 - EXPERIENCE --------------------
+My current role as Head of Department – Student Services at Doomadgee State School has provided me with valuable experience in leading student wellbeing initiatives and managing comprehensive support programs for Years 7–12. I have successfully implemented evidence-based strategies that have improved student attendance and behaviour outcomes, while collaborating with leadership teams to develop and execute strategic school improvement projects. My background in Industrial Technologies and Design, combined with my experience in Positive Behaviour for Learning (PBL) implementation, has equipped me with a unique perspective on creating engaging, inclusive, and safe learning environments.
+
+%-------------------- BODY PARAGRAPH 2 - SKILLS & ACHIEVEMENTS --------------------
+Throughout my career, I have demonstrated strong leadership capabilities in managing departments, mentoring staff, and implementing innovative educational programs. At Glenden State School, I successfully managed the Industrial Technologies \& Design department, overseeing curriculum planning, procurement, and equipment maintenance while ensuring compliance with VET and QCAA requirements. My technical background as a Network Engineer with Cisco Systems has enhanced my analytical and problem-solving skills, which I have effectively applied to educational leadership challenges. I am particularly skilled in Work Health \& Safety (WHS) management, having chaired WHS meetings and supported compliance processes across multiple institutions.
+
+%-------------------- BODY PARAGRAPH 3 - MOTIVATION & FIT --------------------
+I am drawn to [School/Organization Name] because of [specific reason - research the school/organization and mention something specific about their values, programs, or mission]. Your commitment to [mention specific program, initiative, or value] aligns perfectly with my professional philosophy of creating supportive learning environments that prioritize student wellbeing and academic achievement. I am excited about the opportunity to contribute my expertise in student services, curriculum development, and educational leadership to your team.
+
+%-------------------- CLOSING PARAGRAPH --------------------
+I am confident that my combination of educational leadership experience, technical background, and commitment to student success makes me an ideal candidate for this position. I would welcome the opportunity to discuss how my skills and experience can benefit [School/Organization Name] and contribute to your continued success.
+
+%-------------------- CLOSING --------------------
+Thank you for considering my application. I look forward to the opportunity to discuss this position with you further.
+
+\vspace{1cm}
+
+Sincerely, \\
+\vspace{0.5cm}
+Hennie Aucamp
+
+%-------------------- ENCLOSURE --------------------
+\vspace{0.5cm}
+Enclosure: Resume
+
+\end{document} 

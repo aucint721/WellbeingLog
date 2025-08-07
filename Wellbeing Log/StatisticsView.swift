@@ -306,7 +306,7 @@ struct StatisticsView: View {
         var diverseLearnersStats = RoomStats()
         var lunchStats = RoomStats()
         
-        let leavingOutcomes = [
+        _ = [
             "Feeling Better",
             "Return to Class",
             "Going to Lunch",

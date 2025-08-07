@@ -2,6 +2,7 @@ import SwiftUI
 
 struct HeadCountView: View {
     @ObservedObject var studentStore: StudentStore
+    @StateObject private var syncManager = RoomSyncManager()
     @State private var wellbeingStudents: [Student] = []
     @State private var diverseLearnersStudents: [Student] = []
     @State private var lunchCount: Int = 0
@@ -25,7 +26,8 @@ struct HeadCountView: View {
     ]
     
     var body: some View {
-        VStack(spacing: 30) {
+        ScrollView {
+            VStack(spacing: 30) {
             // Safety Warning Display
             if !safetyWarnings.isEmpty {
                 VStack(spacing: 10) {
@@ -228,6 +230,7 @@ struct HeadCountView: View {
                 .padding()
                 Spacer()
             }
+            }
         }
         .padding()
         .onAppear(perform: loadSignedInStudents)
@@ -362,7 +365,7 @@ struct HeadCountView: View {
         // Determine current status for each room
         var currentlySignedInWellbeing: [String] = []
         var currentlySignedInDiverseLearners: [String] = []
-        var currentlySignedInLunch: [String] = []
+        // var currentlySignedInLunch: [String] = [] // Removed unused variable
         
         // Wellbeing Room
         for (studentName, entries) in wellbeingEntries {
@@ -425,6 +428,11 @@ struct HeadCountView: View {
             lunchCount = 0
             print("DEBUG: HeadCountView - Cannot access documents directory, resetting: \(oldLunchCount) -> \(lunchCount)")
         }
+        
+        // Update sync manager with actual counts
+        syncManager.updateWellbeingCount(wellbeingStudents.count)
+        syncManager.updateDiverseLearnersCount(diverseLearnersStudents.count)
+        syncManager.updateLunchCount(lunchCount)
         
         print("DEBUG: Final lunch count set to: \(lunchCount)")
         

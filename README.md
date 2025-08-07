@@ -1,111 +1,126 @@
-# Wellbeing Log
+# Wellbeing Log - iOS App
 
-A comprehensive iOS app for tracking student wellbeing and managing room-based student logging in educational institutions.
-
-## About
-
-Wellbeing Log is designed for schools, counselors, and administrators who need to monitor student attendance and wellbeing across different support rooms. The app provides real-time tracking, data management, and detailed reporting capabilities.
+A comprehensive iOS application for tracking student wellbeing, attendance, and room management in educational settings.
 
 ## Features
 
-### Core Features
-- **Student Tracking**: Track students entering and exiting different rooms (Wellbeing, Diverse Learners, Lunch) with customizable reasons and timestamps
-- **Real-time Headcount**: Monitor current student counts in each room with live updates
-- **Data Management**: Import and export student data via CSV files with comprehensive backup functionality
-- **Statistics & Reports**: Generate detailed reports on student movements and room usage
-- **Customizable Reasons**: Set up custom reasons for student entries and exits
-- **iPad & iPhone Optimized**: Fully responsive design for both devices
+### Core Functionality
+- **Student Management**: Add, search, and manage student records
+- **Room Tracking**: Monitor students in Wellbeing Room, Diverse Learners Room, and Lunch Room
+- **Real-time Sync**: CloudKit-powered synchronization between devices
+- **Statistics**: Comprehensive reporting and analytics
+- **Safety Monitoring**: Automated safety warnings and alerts
 
-### Premium Features (After Trial)
-- **Unlimited Student Tracking**: No restrictions on student entries and exits
-- **Advanced Statistics**: Detailed analytics and reporting capabilities
-- **Custom Reason Management**: Full control over entry and exit reasons
-- **Data Export & Backup**: Comprehensive CSV import/export functionality
-- **Cross-Device Sync**: Data persistence across multiple devices
+### Room Management
+- **Wellbeing Room**: Track students seeking emotional support
+- **Diverse Learners Room**: Monitor students with learning support needs
+- **Lunch Room**: Manage lunchtime attendance
 
-### Trial System
-- **30-Day Free Trial**: Full access to all features for 30 days
-- **Seamless Upgrade**: Easy transition from trial to premium
-- **Restore Purchases**: Automatic restoration of previous purchases
-- **No Data Loss**: All data preserved during trial and upgrade
+### CloudKit Integration
+- **Real-time Sync**: Changes appear on all devices within 30 seconds
+- **iCloud Required**: Professional Apple infrastructure for reliable sync
+- **Automatic Conflict Resolution**: CloudKit handles data conflicts
+- **Offline Support**: Changes sync when connection is restored
 
-## Privacy & Security
+## Requirements
 
-- **Local Storage Only**: All data is stored locally on your device
-- **No Data Transmission**: No information is sent to external servers
-- **No Tracking**: No analytics or tracking data is collected
-- **Complete Control**: You have full control over your data
-- **Secure Transactions**: All purchases handled through Apple's secure StoreKit system
+### For Basic Use
+- iOS 15.0 or later
+- iPhone or iPad
 
-## System Requirements
+### For CloudKit Sync
+- iCloud account signed in on all devices
+- Internet connection
+- Same iCloud account on all devices
 
-- **iOS Version**: iOS 18.5 or later
-- **Devices**: iPhone and iPad
-- **Storage**: 50 MB available space
-- **Permissions**: File access for CSV import/export
-- **Internet**: Required for App Store purchases (one-time)
+## Installation
 
-## Support
+1. **Clone the repository**
+   ```bash
+   git clone [repository-url]
+   cd "Wellbeing Log"
+   ```
 
-For support and assistance with Wellbeing Log:
+2. **Open in Xcode**
+   ```bash
+   open "Wellbeing Log.xcodeproj"
+   ```
 
-- **Email**: support@wellbeinglog.app
-- **Support Hours**: Monday - Friday, 9 AM - 5 PM EST
-- **Response Time**: Within 24 hours
-- **Support Website**: https://aucint721.github.io/WellbeingLog
+3. **Configure CloudKit (for sync feature)**
+   - Add iCloud capability in Xcode
+   - Enable CloudKit within iCloud capability
+   - Set container identifier: `iCloud.com.HennieAucamp.wellbeinglog`
+   - Configure CloudKit Dashboard (see CLOUDKIT_SETUP.md)
 
-## Development
+4. **Build and run**
+   - Select target device/simulator
+   - Press Cmd+R to build and run
 
-This project is built using SwiftUI and follows iOS development best practices. The app is designed to be lightweight, secure, and user-friendly for educational environments.
+## Usage
 
-### Recent Updates & Improvements
+### Basic Operations
+1. **Add Students**: Use the main menu to add student records
+2. **Track Attendance**: Sign students in/out of rooms
+3. **Monitor Counts**: View real-time head counts
+4. **Generate Reports**: Access statistics and analytics
 
-#### Version 1.0.0 (Latest)
-- ✅ **In-App Purchase System**: Complete StoreKit 2 implementation
-- ✅ **Trial Period**: 30-day free trial for new users
-- ✅ **Premium Features**: Gated functionality with seamless upgrade
-- ✅ **Purchase Restoration**: Automatic restore of previous purchases
-- ✅ **Error Handling**: Comprehensive error handling for all purchase flows
-- ✅ **GitHub Repository**: Complete source code and documentation
-- ✅ **Support Website**: Professional GitHub Pages support site
-- ✅ **App Store Ready**: All submission requirements met
+### CloudKit Sync Setup
+1. **Sign into iCloud** on all devices
+2. **Enable iCloud** for the app in Settings
+3. **Grant permissions** when prompted
+4. **Access "CloudKit Room Sync"** from main menu
 
-#### Technical Improvements
-- **StoreKit 2 Integration**: Modern purchase handling with transaction verification
-- **Trial Management**: Local trial tracking with UserDefaults
-- **Purchase Flow**: Streamlined upgrade experience
-- **Data Persistence**: Enhanced data management across app lifecycle
-- **UI/UX Enhancements**: Improved purchase interface and status indicators
+### Room Operations
+- **Wellbeing Room**: Track emotional support needs
+- **Diverse Learners Room**: Monitor learning support
+- **Lunch Room**: Manage lunchtime attendance
+- **Statistics**: View comprehensive reports
 
-### Project Structure
+## File Structure
 
 ```
 Wellbeing Log/
-├── Wellbeing Log/          # Main app source code
-│   ├── ContentView.swift   # Main interface with trial/purchase integration
-│   ├── PurchaseView.swift  # Premium upgrade interface
-│   ├── SubscriptionManager.swift # StoreKit 2 implementation
-│   └── [Other Swift files] # Core app functionality
-├── Wellbeing LogTests/     # Unit tests
-├── Wellbeing LogUITests/   # UI tests
-├── index.html             # Support website (GitHub Pages)
-├── README.md              # Project documentation
-├── .gitignore             # Git exclusions
-└── Documentation/         # App store submission docs
+├── Wellbeing Log/
+│   ├── ContentView.swift          # Main app interface
+│   ├── HeadCountView.swift        # Room count display
+│   ├── RoomSyncManager.swift      # CloudKit sync manager
+│   ├── LiveRoomSyncView.swift     # Real-time sync interface
+│   ├── StudentStore.swift         # Student data management
+│   ├── SharedDataModels.swift     # Shared data structures
+│   └── [Other Swift files]        # Additional functionality
+├── CLOUDKIT_SETUP.md             # CloudKit configuration guide
+├── APP_STORE_SUBMISSION.md       # App Store submission guide
+└── README.md                     # This file
 ```
 
-## Repository Information
+## CloudKit Setup
 
-- **GitHub Repository**: https://github.com/aucint721/WellbeingLog
-- **Support Website**: https://aucint721.github.io/WellbeingLog
-- **License**: © 2024 Wellbeing Log. All rights reserved.
+For detailed CloudKit configuration instructions, see [CLOUDKIT_SETUP.md](CLOUDKIT_SETUP.md).
 
-## App Store Information
+## App Store Submission
 
-- **Bundle ID**: aucint.Wellbeing-Log
-- **Product ID**: wellbeing_log_premium
-- **Pricing**: AUD 9.99 (one-time purchase)
-- **Category**: Education > Productivity
-- **Platform**: iOS (iPhone & iPad)
+For App Store submission guidelines, see [APP_STORE_SUBMISSION.md](APP_STORE_SUBMISSION.md).
 
-Designed for educational institutions and student wellbeing management. 
+## Privacy & Security
+
+- **Local Data**: Student records stored locally on device
+- **CloudKit Sync**: Optional feature requiring iCloud sign-in
+- **No External Servers**: All data stays within Apple's ecosystem
+- **User Control**: Users choose whether to enable sync
+
+## Support
+
+For technical support or feature requests, please refer to the documentation files or contact the development team.
+
+## Version History
+
+### Current Version
+- **CloudKit Integration**: Real-time sync between devices
+- **Professional UI**: Improved interface for all device sizes
+- **Enhanced Security**: Apple's CloudKit infrastructure
+- **Comprehensive Documentation**: Complete setup and usage guides
+
+### Previous Versions
+- Local file-based sync (deprecated)
+- Basic room tracking
+- Initial student management features 

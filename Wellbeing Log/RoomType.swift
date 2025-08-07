@@ -1,6 +1,7 @@
 import Foundation
+import SwiftUI
 
-enum RoomType: String, CaseIterable {
+public enum RoomType: String, CaseIterable, Hashable {
     case wellbeing = "Wellbeing Room"
     case diverseLearners = "Diverse Learners Room"
     case lunch = "Lunch Room"
@@ -9,7 +10,7 @@ enum RoomType: String, CaseIterable {
         return self.rawValue
     }
     
-    var iconName: String {
+    var icon: String {
         switch self {
         case .wellbeing:
             return "heart.fill"
@@ -20,14 +21,14 @@ enum RoomType: String, CaseIterable {
         }
     }
     
-    var color: String {
+    var color: Color {
         switch self {
         case .wellbeing:
-            return "green"
+            return .green
         case .diverseLearners:
-            return "blue"
+            return .blue
         case .lunch:
-            return "orange"
+            return .orange
         }
     }
 } 

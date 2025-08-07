@@ -15,6 +15,7 @@ enum MainMenuDestination: Hashable {
     case settings
     case headCount
     case statistics
+    case liveRoomSync
 }
 
 struct ContentView: View {
@@ -26,23 +27,24 @@ struct ContentView: View {
 
     var body: some View {
         NavigationStack(path: $path) {
-            VStack(spacing: 50) {
-                Text("Well App")
-                    .font(.system(size: 48, weight: .bold, design: .rounded))
-                    .foregroundColor(.primary)
-                    .padding(.top, 50)
-                    .padding(.bottom, 20)
-                
-                // Subscription status indicator
-                HStack {
-                    Text(subscriptionManager.purchaseStatusText)
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                    Spacer()
-                }
-                .padding(.horizontal, 30)
-                
-                VStack(spacing: 30) {
+            ScrollView {
+                VStack(spacing: 40) {
+                    Text("Well App")
+                        .font(.system(size: 48, weight: .bold, design: .rounded))
+                        .foregroundColor(.primary)
+                        .padding(.top, 30)
+                        .padding(.bottom, 20)
+                    
+                    // Subscription status indicator
+                    HStack {
+                        Text(subscriptionManager.purchaseStatusText)
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                        Spacer()
+                    }
+                    .padding(.horizontal, 30)
+                    
+                    VStack(spacing: 25) {
                     Button("Student In") {
                         if subscriptionManager.canUseApp {
                             path.append(.studentInRoomSelection)
@@ -53,8 +55,8 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(.green)
                     .frame(maxWidth: .infinity)
-                    .frame(height: 80)
-                    .font(.title)
+                    .frame(height: 70)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 30)
 
@@ -68,8 +70,8 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(.red)
                     .frame(maxWidth: .infinity)
-                    .frame(height: 80)
-                    .font(.title)
+                    .frame(height: 70)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 30)
 
@@ -83,8 +85,8 @@ struct ContentView: View {
                     .buttonStyle(.borderedProminent)
                     .tint(.blue)
                     .frame(maxWidth: .infinity)
-                    .frame(height: 80)
-                    .font(.title)
+                    .frame(height: 70)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 30)
 
@@ -103,21 +105,36 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .padding(.horizontal, 30)
 
+                    Button("CloudKit Room Sync") {
+                        if subscriptionManager.canUseApp {
+                            path.append(.liveRoomSync)
+                        } else {
+                            showingPurchaseView = true
+                        }
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(.indigo)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 70)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .padding(.horizontal, 30)
+
                     Button("Settings") {
                         path.append(.settings)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.purple)
                     .frame(maxWidth: .infinity)
-                    .frame(height: 80)
-                    .font(.title)
+                    .frame(height: 70)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .padding(.horizontal, 30)
-
-
                 }
                 
-                Spacer()
+                // Add some bottom padding for scrolling
+                Spacer(minLength: 50)
+            }
             }
             .navigationDestination(for: MainMenuDestination.self) { destination in
                 switch destination {
@@ -145,6 +162,8 @@ struct ContentView: View {
                     StatisticsView(studentStore: studentStore)
                 case .headCount:
                     HeadCountView(studentStore: studentStore)
+                case .liveRoomSync:
+                    LiveRoomSyncView(studentStore: studentStore)
                 case .settings:
                     SettingsView(studentStore: studentStore)
 
