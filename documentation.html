@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellbeing Log - Documentation & Instructions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .nav-menu {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .nav-menu a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .main-content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .doc-section {
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .doc-section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        .doc-section h3 {
+            color: #495057;
+            margin: 20px 0 10px 0;
+            font-size: 1.3rem;
+        }
+        
+        .doc-section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .doc-section ul, .doc-section ol {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .doc-section li {
+            margin: 8px 0;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .code-block {
+            background: #2d3748;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 15px 0;
+            overflow-x: auto;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .success-box {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .toc {
+            background: #e3f2fd;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+        
+        .toc h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .toc li {
+            padding: 8px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .toc a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+            
+            .nav-menu a {
+                display: block;
+                margin: 10px 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Documentation & Instructions</h1>
+            <p class="subtitle">Complete guide for Wellbeing Log setup and usage</p>
+        </header>
+        
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="support.html">Support</a>
+            <a href="documentation.html">Documentation</a>
+        </div>
+        
+        <div class="main-content">
+            <div class="toc">
+                <h3>📚 Table of Contents</h3>
+                <ul>
+                    <li><a href="#overview">Overview</a></li>
+                    <li><a href="#installation">Installation Guide</a></li>
+                    <li><a href="#cloudkit-setup">CloudKit Setup</a></li>
+                    <li><a href="#usage">Usage Instructions</a></li>
+                    <li><a href="#features">Feature Documentation</a></li>
+                    <li><a href="#troubleshooting">Troubleshooting</a></li>
+                    <li><a href="#app-store">App Store Submission</a></li>
+                </ul>
+            </div>
+            
+            <section id="overview" class="doc-section">
+                <h2>Overview</h2>
+                <p>Wellbeing Log is a professional iOS application designed for educational institutions to track student wellbeing, attendance, and room management with real-time CloudKit synchronization.</p>
+                
+                <h3>Key Features</h3>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>📊 Real-time Head Counts</h4>
+                        <p>Monitor current student counts in Wellbeing Room, Diverse Learners Room, and Lunch Room with live updates.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>☁️ CloudKit Sync</h4>
+                        <p>Professional Apple infrastructure for reliable cross-device synchronization within 30 seconds.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>👥 Student Management</h4>
+                        <p>Comprehensive student database with search, filtering, and detailed tracking capabilities.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>📈 Advanced Statistics</h4>
+                        <p>Generate detailed reports on room usage, student patterns, and wellbeing trends.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>⚙️ Customizable Reasons</h4>
+                        <p>Set up custom entry and exit reasons tailored to your institution's specific needs.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>🛡️ Safety Monitoring</h4>
+                        <p>Automated safety warnings and alerts to ensure proper oversight of student wellbeing.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="installation" class="doc-section">
+                <h2>Installation Guide</h2>
+                
+                <h3>System Requirements</h3>
+                <ul>
+                    <li><strong>iOS Version:</strong> iOS 15.0 or later</li>
+                    <li><strong>Devices:</strong> iPhone and iPad</li>
+                    <li><strong>Storage:</strong> 50 MB available space</li>
+                    <li><strong>iCloud Account:</strong> Required for CloudKit sync feature</li>
+                    <li><strong>Internet Connection:</strong> For real-time synchronization</li>
+                </ul>
+                
+                <h3>Installation Steps</h3>
+                <ol>
+                    <li><strong>Download from App Store</strong> - Search for "Wellbeing Log"</li>
+                    <li><strong>Grant Permissions</strong> - Allow file access for CSV import/export</li>
+                    <li><strong>Sign into iCloud</strong> - Required for CloudKit sync functionality</li>
+                    <li><strong>Enable iCloud for App</strong> - Go to Settings > [Your Name] > iCloud > Apps using iCloud</li>
+                    <li><strong>Add Your First Students</strong> - Use the main menu to add student records</li>
+                </ol>
+                
+                <div class="success-box">
+                    <strong>✅ Ready to Use!</strong> Once installed and configured, you can immediately start tracking student wellbeing and attendance.
+                </div>
+            </section>
+            
+            <section id="cloudkit-setup" class="doc-section">
+                <h2>CloudKit Setup</h2>
+                
+                <h3>What is CloudKit?</h3>
+                <p>CloudKit is Apple's professional infrastructure for real-time data synchronization between devices. It provides secure, reliable, and automatic sync capabilities without requiring external servers.</p>
+                
+                <h3>Setup Requirements</h3>
+                <ul>
+                    <li><strong>iCloud Account:</strong> Must be signed in on all devices</li>
+                    <li><strong>Same iCloud Account:</strong> All devices must use the same iCloud account</li>
+                    <li><strong>Internet Connection:</strong> Required for initial sync and updates</li>
+                    <li><strong>App Permissions:</strong> Enable iCloud for Wellbeing Log in Settings</li>
+                </ul>
+                
+                <h3>Setup Steps</h3>
+                <ol>
+                    <li><strong>Sign into iCloud</strong> on all devices you want to sync</li>
+                    <li><strong>Enable iCloud for Wellbeing Log</strong> in Settings > [Your Name] > iCloud > Apps using iCloud</li>
+                    <li><strong>Grant CloudKit permissions</strong> when prompted</li>
+                    <li><strong>Access "CloudKit Room Sync"</strong> from the main menu</li>
+                    <li><strong>Test sync functionality</strong> by making changes on one device and checking another</li>
+                </ol>
+                
+                <div class="warning-box">
+                    <strong>⚠️ Important:</strong> CloudKit sync requires an iCloud account. This is a free Apple service that provides secure, professional-grade synchronization.
+                </div>
+                
+                <h3>Benefits of CloudKit</h3>
+                <ul>
+                    <li><strong>Real-time Updates:</strong> Changes appear on all devices within 30 seconds</li>
+                    <li><strong>Automatic Conflict Resolution:</strong> CloudKit handles simultaneous changes intelligently</li>
+                    <li><strong>Offline Support:</strong> Changes sync when connection is restored</li>
+                    <li><strong>Secure Infrastructure:</strong> All data stays within Apple's secure ecosystem</li>
+                    <li><strong>No External Servers:</strong> No third-party services or data transmission</li>
+                </ul>
+            </section>
+            
+            <section id="usage" class="doc-section">
+                <h2>Usage Instructions</h2>
+                
+                <h3>Basic Operations</h3>
+                
+                <h4>1. Adding Students</h4>
+                <ol>
+                    <li>From the main menu, select "Add Students"</li>
+                    <li>Enter student information (name, year, teacher)</li>
+                    <li>Save the student record</li>
+                    <li>Students are now available for room tracking</li>
+                </ol>
+                
+                <h4>2. Tracking Student Movement</h4>
+                <ol>
+                    <li><strong>Student In:</strong> Select a room, choose a student, and record their entry with a reason</li>
+                    <li><strong>Student Out:</strong> Find students currently in a room and record their exit with an outcome</li>
+                    <li><strong>Head Count:</strong> View current student counts and lists for each room</li>
+                </ol>
+                
+                <h4>3. Monitoring Room Activity</h4>
+                <ul>
+                    <li><strong>Wellbeing Room:</strong> Track students seeking emotional support</li>
+                    <li><strong>Diverse Learners Room:</strong> Monitor students with learning support needs</li>
+                    <li><strong>Lunch Room:</strong> Manage lunchtime attendance</li>
+                </ul>
+                
+                <h4>4. Generating Reports</h4>
+                <ol>
+                    <li>Access "Statistics" from the main menu</li>
+                    <li>View comprehensive reports on student movements</li>
+                    <li>Export data via CSV for external analysis</li>
+                    <li>Monitor room usage patterns and trends</li>
+                </ol>
+                
+                <h3>CloudKit Sync Usage</h3>
+                <ol>
+                    <li>Ensure all devices are signed into the same iCloud account</li>
+                    <li>Access "CloudKit Room Sync" from the main menu</li>
+                    <li>Monitor sync status and connection</li>
+                    <li>Changes automatically appear on all connected devices</li>
+                    <li>Use "Manual Sync Now" button for immediate updates</li>
+                </ol>
+            </section>
+            
+            <section id="features" class="doc-section">
+                <h2>Feature Documentation</h2>
+                
+                <h3>Room Management</h3>
+                <p>Wellbeing Log tracks three main support rooms:</p>
+                
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h4>💚 Wellbeing Room</h4>
+                        <p>Track students seeking emotional support, counseling, or mental health assistance. Monitor reasons for entry and outcomes.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>🧠 Diverse Learners Room</h4>
+                        <p>Monitor students with learning support needs, special education requirements, or academic assistance.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <h4>🍽️ Lunch Room</h4>
+                        <p>Manage lunchtime attendance and track students during meal periods for safety and supervision.</p>
+                    </div>
+                </div>
+                
+                <h3>Data Management</h3>
+                <ul>
+                    <li><strong>CSV Import/Export:</strong> Import student lists and export activity data</li>
+                    <li><strong>Backup & Restore:</strong> Secure data backup and recovery options</li>
+                    <li><strong>Custom Reasons:</strong> Configure entry and exit reasons for your institution</li>
+                    <li><strong>Search & Filter:</strong> Find students quickly with advanced search capabilities</li>
+                </ul>
+                
+                <h3>Safety Features</h3>
+                <ul>
+                    <li><strong>Automated Warnings:</strong> System alerts for unusual patterns or safety concerns</li>
+                    <li><strong>Audit Trail:</strong> Complete record of all student movements and activities</li>
+                    <li><strong>Real-time Monitoring:</strong> Live updates of student locations and activities</li>
+                    <li><strong>Emergency Protocols:</strong> Quick access to student information in emergency situations</li>
+                </ul>
+            </section>
+            
+            <section id="troubleshooting" class="doc-section">
+                <h2>Troubleshooting</h2>
+                
+                <h3>Common Issues & Solutions</h3>
+                
+                <h4>CloudKit Sync Issues</h4>
+                <ul>
+                    <li><strong>Problem:</strong> "iCloud Disconnected" error</li>
+                    <li><strong>Solution:</strong> Check iCloud sign-in and internet connection in Settings</li>
+                    <li><strong>Problem:</strong> "Sync Failed" error</li>
+                    <li><strong>Solution:</strong> Verify CloudKit permissions and iCloud storage availability</li>
+                    <li><strong>Problem:</strong> No updates appearing on other devices</li>
+                    <li><strong>Solution:</strong> Ensure all devices are signed into the same iCloud account</li>
+                </ul>
+                
+                <h4>App Functionality Issues</h4>
+                <ul>
+                    <li><strong>Problem:</strong> App crashes or freezes</li>
+                    <li><strong>Solution:</strong> Update to latest iOS version and restart the app</li>
+                    <li><strong>Problem:</strong> Permission errors</li>
+                    <li><strong>Solution:</strong> Grant necessary permissions in Settings > Privacy & Security</li>
+                    <li><strong>Problem:</strong> Data not saving</li>
+                    <li><strong>Solution:</strong> Check device storage and file access permissions</li>
+                </ul>
+                
+                <h4>Performance Issues</h4>
+                <ul>
+                    <li><strong>Problem:</strong> Slow app performance</li>
+                    <li><strong>Solution:</strong> Close other apps and restart Wellbeing Log</li>
+                    <li><strong>Problem:</strong> Sync delays</li>
+                    <li><strong>Solution:</strong> Check internet connection and iCloud status</li>
+                </ul>
+                
+                <div class="success-box">
+                    <strong>💡 Pro Tip:</strong> If you experience persistent issues, try signing out of iCloud and signing back in, then restart the app.
+                </div>
+            </section>
+            
+            <section id="app-store" class="doc-section">
+                <h2>App Store Information</h2>
+                
+                <h3>App Details</h3>
+                <ul>
+                    <li><strong>App Name:</strong> Wellbeing Log</li>
+                    <li><strong>Bundle ID:</strong> aucint.Wellbeing-Log</li>
+                    <li><strong>Category:</strong> Education > Productivity</li>
+                    <li><strong>Platform:</strong> iOS (iPhone & iPad)</li>
+                    <li><strong>Language:</strong> English</li>
+                    <li><strong>Age Rating:</strong> 4+ (No objectionable content)</li>
+                </ul>
+                
+                <h3>Pricing & Features</h3>
+                <ul>
+                    <li><strong>Download:</strong> Free</li>
+                    <li><strong>CloudKit Sync:</strong> Requires iCloud account (free Apple service)</li>
+                    <li><strong>In-App Purchases:</strong> None required for basic functionality</li>
+                    <li><strong>Data Storage:</strong> Local device + optional CloudKit sync</li>
+                </ul>
+                
+                <h3>Privacy & Security</h3>
+                <ul>
+                    <li><strong>Data Collection:</strong> None (all data stored locally/CloudKit)</li>
+                    <li><strong>Analytics:</strong> None</li>
+                    <li><strong>Third-party Services:</strong> None</li>
+                    <li><strong>External Servers:</strong> None (Apple CloudKit only)</li>
+                </ul>
+            </section>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Wellbeing Log. All rights reserved.</p>
+            <p>Professional student wellbeing management with comprehensive documentation.</p>
+        </footer>
+    </div>
+</body>
+</html>

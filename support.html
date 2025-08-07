@@ -43,6 +43,29 @@
             margin-bottom: 30px;
         }
         
+        .nav-menu {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+        }
+        
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .nav-menu a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
         .main-content {
             background: white;
             border-radius: 20px;
@@ -207,6 +230,12 @@
             .support-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .nav-menu a {
+                display: block;
+                margin: 10px 0;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -216,6 +245,12 @@
             <h1>Support & Documentation</h1>
             <p class="subtitle">Comprehensive support for Wellbeing Log CloudKit integration</p>
         </header>
+        
+        <div class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="support.html">Support</a>
+            <a href="documentation.html">Documentation</a>
+        </div>
         
         <div class="main-content">
             <h2>Getting Started with Wellbeing Log</h2>
