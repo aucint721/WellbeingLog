@@ -10,11 +10,82 @@ struct SettingsView: View {
     @State private var confirmationAction: String = ""
     @State private var showingImportSheet = false
     @State private var showingReasonsImportSheet = false
+    @State private var showingPurchaseSheet = false
 
     
     var body: some View {
         NavigationView {
             List {
+                // Subscription Status Header
+                Section {
+                    HStack {
+                        VStack(alignment: .leading, spacing: 8) {
+                            HStack {
+                                Image(systemName: subscriptionManager.isPurchased ? "crown.fill" : 
+                                          subscriptionManager.isInTrial ? "clock.badge" : "exclamationmark.triangle.fill")
+                                    .foregroundColor(subscriptionManager.isPurchased ? .yellow : 
+                                                   subscriptionManager.isInTrial ? .blue : .orange)
+                                    .font(.title)
+                                
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(subscriptionManager.isPurchased ? "Premium Active" : 
+                                         subscriptionManager.isInTrial ? "Trial Period" : "Trial Expired")
+                                        .font(.title2)
+                                        .fontWeight(.bold)
+                                    
+                                    Text(subscriptionManager.trialStatusDescription)
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    
+                                    if subscriptionManager.isInTrial {
+                                        Text(subscriptionManager.trialExpirationText)
+                                            .font(.caption)
+                                            .foregroundColor(.blue)
+                                    }
+                                }
+                            }
+                            
+                            if subscriptionManager.isInTrial {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    HStack {
+                                        Text("\(subscriptionManager.trialDaysRemaining) days remaining")
+                                            .font(.headline)
+                                            .foregroundColor(.blue)
+                                        Spacer()
+                                        if !subscriptionManager.isPurchased {
+                                            Button("Upgrade Now") {
+                                                showingPurchaseSheet = true
+                                            }
+                                            .buttonStyle(.borderedProminent)
+                                            .controlSize(.small)
+                                        }
+                                    }
+                                    
+                                    // Trial Progress Bar
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        HStack {
+                                            Text("Trial Progress")
+                                                .font(.caption)
+                                                .foregroundColor(.secondary)
+                                            Spacer()
+                                            Text("\(Int(subscriptionManager.trialProgressPercentage * 100))%")
+                                                .font(.caption)
+                                                .foregroundColor(.secondary)
+                                        }
+                                        
+                                        ProgressView(value: subscriptionManager.trialProgressPercentage)
+                                            .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                                            .scaleEffect(x: 1, y: 1.5, anchor: .center)
+                                    }
+                                }
+                            }
+                        }
+                        
+                        Spacer()
+                    }
+                    .padding(.vertical, 8)
+                }
+                
                 Section(header: Text("Student Management").font(.title2).fontWeight(.bold)) {
                     Button(action: {
                         exportStudents()
@@ -177,48 +248,120 @@ struct SettingsView: View {
                     }
                 }
                 
-                #if DEBUG
-                Section(header: Text("Debug Tools").font(.title2).fontWeight(.bold)) {
-                    Button(action: {
-                        subscriptionManager.simulateTrialExpiration()
-                    }) {
+                Section(header: Text("Subscription & Trial").font(.title2).fontWeight(.bold)) {
+                    // Trial Status
+                    VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            Image(systemName: "clock.badge.exclamationmark")
-                                .foregroundColor(.orange)
-                            Text("Simulate Trial Expiration")
-                                .font(.title3)
-                                .fontWeight(.semibold)
+                            Image(systemName: subscriptionManager.isPurchased ? "checkmark.circle.fill" : 
+                                      subscriptionManager.isInTrial ? "clock.fill" : "exclamationmark.circle.fill")
+                                .foregroundColor(subscriptionManager.isPurchased ? .green : 
+                                               subscriptionManager.isInTrial ? .blue : .orange)
+                                .font(.title2)
+                            
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(subscriptionManager.purchaseStatusText)
+                                    .font(.headline)
+                                    .fontWeight(.semibold)
+                                
+                                Text(subscriptionManager.trialStatusDescription)
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                            
                             Spacer()
+                        }
+                        
+                        // Trial Progress Bar (only show if in trial)
+                        if subscriptionManager.isInTrial {
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack {
+                                    Text("Trial Progress")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    Spacer()
+                                    Text("\(subscriptionManager.trialDaysRemaining) days left")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                }
+                                
+                                ProgressView(value: subscriptionManager.trialProgressPercentage)
+                                    .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                                    .scaleEffect(x: 1, y: 2, anchor: .center)
+                            }
+                        }
+                        
+                        // Trial Dates
+                        if let _ = subscriptionManager.trialStartDate {
+                            VStack(alignment: .leading, spacing: 4) {
+                                HStack {
+                                    Text("Trial Started:")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    Spacer()
+                                    Text(subscriptionManager.formattedTrialStartDate)
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                }
+                                
+                                HStack {
+                                    Text("Trial Ends:")
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                    Spacer()
+                                    Text(subscriptionManager.formattedTrialEndDate)
+                                        .font(.caption)
+                                        .foregroundColor(.secondary)
+                                }
+                            }
                         }
                     }
+                    .padding(.vertical, 8)
                     
-                    Button(action: {
-                        subscriptionManager.resetTrial()
-                    }) {
-                        HStack {
-                            Image(systemName: "arrow.clockwise")
-                                .foregroundColor(.blue)
-                            Text("Reset Trial")
-                                .font(.title3)
-                                .fontWeight(.semibold)
-                            Spacer()
+                    // Purchase Button (only show if not purchased)
+                    if !subscriptionManager.isPurchased {
+                        Button(action: {
+                            showingPurchaseSheet = true
+                        }) {
+                            HStack {
+                                Image(systemName: "cart.badge.plus")
+                                    .foregroundColor(.white)
+                                Text("Upgrade to Premium")
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.white)
+                                Spacer()
+                                Text(subscriptionManager.productPrice)
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.white)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue)
+                            .cornerRadius(12)
                         }
-                    }
-                    
-                    Button(action: {
-                        subscriptionManager.simulatePurchase()
-                    }) {
-                        HStack {
-                            Image(systemName: "checkmark.circle")
-                                .foregroundColor(.green)
-                            Text("Simulate Purchase")
-                                .font(.title3)
-                                .fontWeight(.semibold)
-                            Spacer()
+                        .padding(.vertical, 8)
+                        
+                        // Restore Purchases Button
+                        Button(action: {
+                            Task {
+                                await subscriptionManager.restorePurchases()
+                            }
+                        }) {
+                            HStack {
+                                Image(systemName: "arrow.clockwise")
+                                    .foregroundColor(.blue)
+                                Text("Restore Purchases")
+                                    .fontWeight(.semibold)
+                                    .foregroundColor(.blue)
+                                Spacer()
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(Color.blue.opacity(0.1))
+                            .cornerRadius(12)
                         }
+                        .padding(.vertical, 4)
                     }
                 }
-                #endif
             }
             .navigationTitle("Settings")
             .alert(alertTitle, isPresented: $showingAlert) {
@@ -246,6 +389,9 @@ struct SettingsView: View {
             }
             .sheet(isPresented: $showingReasonsImportSheet) {
                 ImportReasonsView()
+            }
+            .sheet(isPresented: $showingPurchaseSheet) {
+                PurchaseView()
             }
         }
         .navigationViewStyle(.stack)

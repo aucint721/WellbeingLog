@@ -99,6 +99,51 @@
             font-size: 1.3rem;
         }
         
+        .subscription-support {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .subscription-support h3 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+        
+        .subscription-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .trial-help, .premium-help {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .trial-help h4, .premium-help h4 {
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        
+        .subscription-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .subscription-content li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            line-height: 1.4;
+        }
+        
         .support-card p {
             color: #666;
             line-height: 1.6;
@@ -231,6 +276,11 @@
                 grid-template-columns: 1fr;
             }
             
+            .subscription-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
             .nav-menu a {
                 display: block;
                 margin: 10px 0;
@@ -255,6 +305,30 @@
         <div class="main-content">
             <h2>Getting Started with Wellbeing Log</h2>
             <p>Wellbeing Log is a professional iOS application for educational institutions to track student wellbeing with real-time CloudKit synchronization. This support page provides comprehensive guidance for setup, usage, and troubleshooting.</p>
+            
+            <div class="subscription-support">
+                <h3>💎 Subscription & Trial Support</h3>
+                <div class="subscription-content">
+                    <div class="trial-help">
+                        <h4>🆓 Free Trial Questions</h4>
+                        <ul>
+                            <li><strong>How long is the trial?</strong> 30 days with full access to all features</li>
+                            <li><strong>Do I need a credit card?</strong> No, the trial is completely free</li>
+                            <li><strong>What happens when trial ends?</strong> You can upgrade to premium or the app will show limited functionality</li>
+                            <li><strong>Can I extend my trial?</strong> Trials cannot be extended, but you can upgrade anytime</li>
+                        </ul>
+                    </div>
+                    <div class="premium-help">
+                        <h4>💎 Premium Upgrade Help</h4>
+                        <ul>
+                            <li><strong>How much does premium cost?</strong> $9.99 one-time purchase</li>
+                            <li><strong>Are there recurring fees?</strong> No, it's a one-time purchase</li>
+                            <li><strong>What features are included?</strong> All features: unlimited tracking, statistics, CloudKit sync</li>
+                            <li><strong>Can I restore my purchase?</strong> Yes, use the "Restore Purchases" button in settings</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <div class="support-grid">
                 <div class="support-card">

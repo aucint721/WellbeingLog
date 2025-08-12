@@ -155,31 +155,77 @@ class SubscriptionManager: ObservableObject {
         return product.displayPrice
     }
     
-    // MARK: - Debug Methods (Remove for production)
+    // MARK: - Trial Information Methods
     
-    #if DEBUG
-    func simulateTrialExpiration() {
-        // Set trial start date to 31 days ago to simulate expired trial
-        let expiredDate = Calendar.current.date(byAdding: .day, value: -31, to: Date()) ?? Date()
-        UserDefaults.standard.set(expiredDate, forKey: "trialStartDate")
-        Task {
-            await checkTrialStatus()
+    var trialStartDate: Date? {
+        return UserDefaults.standard.object(forKey: "trialStartDate") as? Date
+    }
+    
+    var trialEndDate: Date? {
+        guard let startDate = trialStartDate else { return nil }
+        return Calendar.current.date(byAdding: .day, value: 30, to: startDate)
+    }
+    
+    var trialStatusDescription: String {
+        if isPurchased {
+            return "Premium features unlocked"
+        } else if isInTrial {
+            return "Trial active - \(trialDaysRemaining) days remaining"
+        } else {
+            return "Trial expired - upgrade to continue"
         }
     }
     
-    func resetTrial() {
-        // Reset trial to start fresh
-        UserDefaults.standard.removeObject(forKey: "trialStartDate")
-        Task {
-            await checkTrialStatus()
+    var trialProgressPercentage: Double {
+        if isPurchased {
+            return 1.0
+        } else if isInTrial {
+            return Double(30 - trialDaysRemaining) / 30.0
+        } else {
+            return 1.0
         }
     }
     
-    func simulatePurchase() {
-        // Simulate a successful purchase for testing
-        isPurchased = true
-        isInTrial = false
-        trialDaysRemaining = 0
+    var formattedTrialStartDate: String {
+        guard let startDate = trialStartDate else { return "Not started" }
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        return formatter.string(from: startDate)
     }
-    #endif
+    
+    var formattedTrialEndDate: String {
+        guard let endDate = trialEndDate else { return "Not available" }
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        return formatter.string(from: endDate)
+    }
+    
+    var trialExpirationText: String {
+        guard let endDate = trialEndDate else { return "Trial not started" }
+        
+        let calendar = Calendar.current
+        let now = Date()
+        let components = calendar.dateComponents([.day], from: now, to: endDate)
+        
+        if let days = components.day {
+            if days > 0 {
+                if days == 1 {
+                    return "Expires tomorrow"
+                } else {
+                    return "Expires in \(days) days"
+                }
+            } else if days == 0 {
+                return "Expires today"
+            } else {
+                let expiredDays = abs(days)
+                if expiredDays == 1 {
+                    return "Expired yesterday"
+                } else {
+                    return "Expired \(expiredDays) days ago"
+                }
+            }
+        }
+        
+        return "Expires on \(formattedTrialEndDate)"
+    }
 } 

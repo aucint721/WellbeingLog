@@ -40,7 +40,28 @@
         .subtitle {
             font-size: 1.2rem;
             opacity: 0.9;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .trial-banner {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 20px;
+        }
+        
+        .trial-text {
+            display: block;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .trial-subtitle {
+            display: block;
+            font-size: 1rem;
+            opacity: 0.9;
         }
         
         .nav-menu {
@@ -72,6 +93,60 @@
             padding: 40px;
             margin: 20px 0;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .freemium-section {
+            background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .freemium-section h3 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+        
+        .freemium-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .trial-info, .upgrade-info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .trial-info h4, .upgrade-info h4 {
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        
+        .freemium-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .freemium-content li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .freemium-content li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #fff;
+            font-weight: bold;
         }
         
         .feature-grid {
@@ -173,10 +248,16 @@
             padding: 40px 0;
         }
         
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
         .cta-button {
             display: inline-block;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
             padding: 15px 40px;
             border-radius: 50px;
             text-decoration: none;
@@ -186,9 +267,27 @@
             box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
         
+        .cta-button.primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .cta-button.secondary {
+            background: rgba(255,255,255,0.9);
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
         .cta-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .cta-note {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
         }
         
         footer {
@@ -211,6 +310,16 @@
                 grid-template-columns: 1fr;
             }
             
+            .freemium-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
             .nav-menu a {
                 display: block;
                 margin: 10px 0;
@@ -224,6 +333,10 @@
         <header>
             <h1>Wellbeing Log</h1>
             <p class="subtitle">Professional Student Wellbeing Management with CloudKit Sync</p>
+            <div class="trial-banner">
+                <span class="trial-text">🎉 Start Your 30-Day Free Trial Today!</span>
+                <span class="trial-subtitle">No credit card required • Full access to all features</span>
+            </div>
         </header>
         
         <div class="nav-menu">
@@ -235,6 +348,31 @@
         <div class="main-content">
             <h2>Comprehensive Student Wellbeing Management</h2>
             <p>Wellbeing Log is a professional iOS application designed for educational institutions to track student wellbeing, attendance, and room management with real-time synchronization across devices.</p>
+            
+            <div class="freemium-section">
+                <h3>🚀 Freemium Model - Try Before You Buy</h3>
+                <div class="freemium-content">
+                    <div class="trial-info">
+                        <h4>✨ 30-Day Free Trial</h4>
+                        <ul>
+                            <li>Full access to all premium features</li>
+                            <li>No credit card required</li>
+                            <li>Professional CloudKit synchronization</li>
+                            <li>Complete student management system</li>
+                        </ul>
+                    </div>
+                    <div class="upgrade-info">
+                        <h4>💎 Premium Upgrade - $9.99</h4>
+                        <ul>
+                            <li>One-time purchase (no recurring fees)</li>
+                            <li>Unlimited student tracking</li>
+                            <li>Advanced statistics and reporting</li>
+                            <li>Data persistence across devices</li>
+                            <li>Lifetime access to all features</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             
             <div class="feature-grid">
                 <div class="feature-card">
@@ -308,8 +446,12 @@
             
             <div class="cta-section">
                 <h2>Ready to Transform Your Student Wellbeing Management?</h2>
-                <p>Join educational institutions worldwide using Wellbeing Log for professional student support tracking.</p>
-                <a href="#" class="cta-button">Download on App Store</a>
+                <p>Start your 30-day free trial today and experience the full power of professional student wellbeing tracking.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button primary">Start Free Trial</a>
+                    <a href="#" class="cta-button secondary">Learn More</a>
+                </div>
+                <p class="cta-note">No credit card required • Cancel anytime • Full access during trial</p>
             </div>
         </div>
         
