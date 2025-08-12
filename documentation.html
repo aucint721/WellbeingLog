@@ -62,11 +62,16 @@
             background: rgba(255,255,255,0.2);
             transition: all 0.3s ease;
             display: inline-block;
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
         }
         
         .nav-menu a:hover {
             background: rgba(255,255,255,0.3);
             transform: translateY(-2px);
+            border-color: rgba(255,255,255,0.5);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
         
         .doc-section {
@@ -197,10 +202,15 @@
             border-radius: 25px;
             font-weight: bold;
             transition: transform 0.3s ease;
+            border: 2px solid #45a049;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         
         .cta-button:hover {
             transform: translateY(-2px);
+            background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+            border-color: #3d8b40;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
         
         footer {

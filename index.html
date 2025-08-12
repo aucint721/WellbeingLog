@@ -87,11 +87,16 @@
             background: rgba(255,255,255,0.2);
             transition: all 0.3s ease;
             display: inline-block;
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
         }
         
         .nav-menu a:hover {
             background: rgba(255,255,255,0.3);
             transform: translateY(-2px);
+            border-color: rgba(255,255,255,0.5);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
         
         .freemium-section {
@@ -267,21 +272,34 @@
             font-weight: bold;
             font-size: 1.1rem;
             transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
         
         .cta-button.primary {
             background: linear-gradient(135deg, #4caf50 0%, #45a049 100%);
             color: white;
+            border: 2px solid #45a049;
         }
         
         .cta-button.secondary {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
+            border: 2px solid #667eea;
         }
         
         .cta-button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+        }
+        
+        .cta-button.primary:hover {
+            background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+            border-color: #3d8b40;
+        }
+        
+        .cta-button.secondary:hover {
+            background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+            border-color: #5a6fd8;
         }
         
         .cta-note {

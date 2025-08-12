@@ -400,6 +400,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Wellbeing Log/Wellbeing Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"CURRENT_PROJECT_VERSION[sdk=*]" = 2;
 				DEVELOPMENT_TEAM = STPHWUN56N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -429,6 +430,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Wellbeing Log/Wellbeing Log.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"CURRENT_PROJECT_VERSION[sdk=*]" = 2;
 				DEVELOPMENT_TEAM = STPHWUN56N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -442,6 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"MARKETING_VERSION[sdk=*]" = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wellbeinglog.school;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
