@@ -1,0 +1,305 @@
+# Minecraft Education World: "We Listen and We Try"
+# File: listen_and_try_world.mcworld
+# Version: 1.0
+# Week 6 Focus: Communication, Empathy, and Perseverance
+
+# World Settings
+world_type: flat
+biome: plains
+weather: clear
+time: day
+difficulty: peaceful
+spawn_point: 0, 64, 0
+
+# Classroom Mode Settings
+classroom_mode: enabled
+student_management: enabled
+assessment_tracking: enabled
+teams: 4
+
+# Theme: "We Listen and We Try"
+# Learning Objectives:
+# - Develop active listening skills
+# - Practice empathy and understanding
+# - Build perseverance and resilience
+# - Collaborate effectively with others
+# - Solve problems through communication
+
+# World Structure and Zones
+
+## Zone 1: Communication Center (Coordinates: -100, 64, -100 to -50, 70, -50)
+communication_center:
+  - foundation: quartz_blocks
+  - walls: white_concrete
+  - roof: glass
+  - interior: meeting_tables, chairs, whiteboards, sound_systems
+  - npcs:
+    - name: "Coach Emma"
+      dialogue: "Welcome to the Communication Center! Here we learn to listen with our hearts and try with our minds. Remember: every voice matters!"
+      location: -75, 65, -75
+    - name: "Dr. Listen"
+      dialogue: "Active listening means hearing not just words, but feelings too. Try to understand what others are really saying."
+      location: -80, 65, -80
+    - name: "Ms. Try"
+      dialogue: "When we try, we grow! Even if something doesn't work the first time, we learn and try again. That's how we get better!"
+      location: -70, 65, -70
+
+## Zone 2: Empathy Garden (Coordinates: -50, 64, -100 to 0, 70, -50)
+empathy_garden:
+  - foundation: grass_blocks
+  - features: flowers, trees, water_features, meditation_spaces
+  - activities: role_playing_areas, reflection_spots, sharing_circles
+  - team_spaces:
+    - team_1: -40, 64, -80 (Blue flowers)
+    - team_2: -20, 64, -80 (Red flowers)
+    - team_3: -40, 64, -60 (Green flowers)
+    - team_4: -20, 64, -60 (Yellow flowers)
+
+## Zone 3: Perseverance Workshop (Coordinates: 0, 64, -100 to 100, 70, -50)
+perseverance_workshop:
+  - foundation: stone_bricks
+  - features: challenge_areas, problem_solving_stations, trial_and_error_zones
+  - tools: building_materials, testing_equipment, feedback_systems
+  - building_zones:
+    - zone_1: 0, 64, -100 to 25, 70, -75 (Bridge building)
+    - zone_2: 25, 64, -100 to 50, 70, -75 (Tower construction)
+    - zone_3: 50, 64, -100 to 75, 70, -75 (Maze creation)
+    - zone_4: 75, 64, -100 to 100, 70, -75 (Machine building)
+
+## Zone 4: Collaboration Arena (Coordinates: -100, 64, -50 to -50, 70, 0)
+collaboration_arena:
+  - foundation: polished_andesite
+  - features: presentation_stage, team_meeting_areas, feedback_stations
+  - activities: group_projects, peer_review, shared_celebrations
+  - reflection_areas: 2 gardens with seating
+
+# Command Blocks and Automation
+
+## Communication System
+command_blocks:
+  - location: -75, 65, -25
+    command: "scoreboard objectives add listening dummy"
+    description: "Track listening skills"
+  
+  - location: -70, 65, -25
+    command: "scoreboard objectives add trying dummy"
+    description: "Track perseverance"
+  
+  - location: -65, 65, -25
+    command: "scoreboard objectives add empathy dummy"
+    description: "Track empathy development"
+
+## Encouragement System
+encouragement_system:
+  - location: -25, 65, -75
+    command: "tellraw @a {\"text\":\"Great listening! Keep trying!\",\"color\":\"green\"}"
+    description: "Positive reinforcement"
+  
+  - location: -20, 65, -75
+    command: "title @a title {\"text\":\"We Listen and We Try\",\"color\":\"blue\"}"
+    description: "Theme reminder"
+
+# NPCs and Dialogue System
+
+## Communication NPCs
+communication_npcs:
+  - name: "Coach Emma"
+    location: -75, 65, -75
+    dialogue_options:
+      - "How can I be a better listener?"
+        response: "Look at the person speaking, nod to show you understand, and ask questions to learn more. Remember: listening is about understanding, not just hearing."
+      - "What if I don't understand something?"
+        response: "That's okay! Ask questions like 'Can you explain that again?' or 'What do you mean by that?' It shows you care about understanding."
+      - "How do I help others feel heard?"
+        response: "Give them your full attention, don't interrupt, and repeat back what you heard to make sure you understood correctly."
+
+  - name: "Dr. Listen"
+    location: -80, 65, -80
+    dialogue_options:
+      - "Why is listening important?"
+        response: "Listening helps us understand others, solve problems together, and build strong friendships. When we listen, we show we care."
+      - "How do I listen with my heart?"
+        response: "Pay attention to how someone feels, not just what they say. Notice their tone of voice and body language. Show empathy and understanding."
+      - "What if someone is upset?"
+        response: "Listen calmly, don't try to fix everything right away, and let them know you understand how they feel. Sometimes people just need to be heard."
+
+  - name: "Ms. Try"
+    location: -70, 65, -70
+    dialogue_options:
+      - "What if I make a mistake?"
+        response: "Mistakes are how we learn! Every great inventor made lots of mistakes. The important thing is to try again and learn from what didn't work."
+      - "How do I keep trying when it's hard?"
+        response: "Break big problems into smaller steps, ask for help when you need it, and remember that every expert was once a beginner. You can do it!"
+      - "What if others don't like my ideas?"
+        response: "That's okay! Share your ideas respectfully, listen to their feedback, and work together to find solutions that work for everyone."
+
+## Support NPCs
+support_npcs:
+  - name: "Friend Felix"
+    location: -25, 65, -25
+    dialogue_options:
+      - "How can I help my team?"
+        response: "Listen to their ideas, share your thoughts respectfully, and work together to solve problems. Remember: we're stronger together!"
+      - "What if we disagree?"
+        response: "Disagreements are normal! Listen to each other's points of view, find common ground, and work together to find a solution that works for everyone."
+      - "How do we celebrate our success?"
+        response: "High-five each other, say 'Great job team!', and take time to appreciate what you accomplished together. Success is sweeter when shared!"
+
+# Learning Objectives and Standards
+
+## Week 6 Learning Objectives
+learning_objectives:
+  - "Develop active listening skills through collaborative activities"
+  - "Practice empathy by understanding and responding to others' perspectives"
+  - "Build perseverance through trial-and-error problem solving"
+  - "Enhance communication skills through team-based projects"
+  - "Foster a growth mindset through 'try again' activities"
+
+## Assessment Criteria
+assessment_criteria:
+  listening:
+    - "Active engagement in conversations"
+    - "Asking clarifying questions"
+    - "Responding appropriately to others"
+    - "Showing understanding through actions"
+  
+  trying:
+    - "Perseverance through challenges"
+    - "Learning from mistakes"
+    - "Asking for help when needed"
+    - "Celebrating effort and progress"
+  
+  empathy:
+    - "Understanding others' feelings"
+    - "Supporting teammates"
+    - "Inclusive behavior"
+    - "Kind and respectful communication"
+  
+  collaboration:
+    - "Working effectively in teams"
+    - "Sharing ideas respectfully"
+    - "Compromising when needed"
+    - "Supporting group success"
+
+# Team Roles and Responsibilities
+
+## Team Structure
+team_roles:
+  listener:
+    - "Pay attention to team members"
+    - "Ask clarifying questions"
+    - "Summarize what was said"
+    - "Show understanding through actions"
+  
+  encourager:
+    - "Support teammates' efforts"
+    - "Celebrate small successes"
+    - "Provide positive feedback"
+    - "Help others keep trying"
+  
+  problem_solver:
+    - "Work through challenges"
+    - "Try different approaches"
+    - "Learn from mistakes"
+    - "Persevere through difficulties"
+  
+  communicator:
+    - "Share ideas clearly"
+    - "Listen to others' ideas"
+    - "Help the team work together"
+    - "Resolve conflicts respectfully"
+
+# Project Timeline and Milestones
+
+## Week 6: "We Listen and We Try"
+week_6_milestones:
+  day_1_2:
+    - "Learn about active listening"
+    - "Practice empathy exercises"
+    - "Form teams and assign roles"
+    - "Begin communication activities"
+  
+  day_3_4:
+    - "Work on collaborative projects"
+    - "Practice perseverance skills"
+    - "Support teammates"
+    - "Celebrate efforts and progress"
+  
+  day_5_6:
+    - "Complete team challenges"
+    - "Reflect on learning"
+    - "Share experiences"
+    - "Plan for continued growth"
+
+# Resources and Materials
+
+## Communication Tools
+communication_tools:
+  - whiteboards: 4 (one per team)
+  - microphones: 4 (for presentations)
+  - headphones: 8 (for focused listening)
+  - notebooks: 16 (for taking notes)
+
+## Building Materials
+building_materials:
+  primary:
+    - stone: 500 blocks
+    - wood: 300 blocks
+    - glass: 100 blocks
+    - wool: 200 blocks (for team colors)
+  
+  secondary:
+    - redstone: 25 items
+    - iron_ingots: 50 items
+    - gold_ingots: 10 items
+    - diamond: 5 items
+
+## Special Items
+special_items:
+  - listening_ear: 4 (custom item for listening focus)
+  - trying_heart: 4 (custom item for perseverance)
+  - empathy_glasses: 4 (custom item for understanding others)
+  - teamwork_badge: 4 (custom item for collaboration)
+
+# Safety and Guidelines
+
+## Communication Guidelines
+communication_guidelines:
+  - "Listen with your whole body"
+  - "Speak respectfully to others"
+  - "Ask questions to understand"
+  - "Share your ideas clearly"
+  - "Support your teammates"
+
+## Perseverance Guidelines
+perseverance_guidelines:
+  - "Try, even if you're not sure"
+  - "Learn from mistakes"
+  - "Ask for help when needed"
+  - "Celebrate your efforts"
+  - "Keep trying, even when it's hard"
+
+# Export and Import Instructions
+
+## Save Instructions
+save_instructions:
+  1. "Open Minecraft Education Edition"
+  2. "Create new world with these settings"
+  3. "Build structures according to coordinates"
+  4. "Place command blocks and NPCs"
+  5. "Set up classroom mode settings"
+  6. "Save world as 'Listen_and_Try_Week6'"
+  7. "Export world file (.mcworld)"
+
+## Import Instructions
+import_instructions:
+  1. "Download the .mcworld file"
+  2. "Open Minecraft Education Edition"
+  3. "Click 'Import' in the worlds menu"
+  4. "Select the .mcworld file"
+  5. "Wait for import to complete"
+  6. "Open the world and begin Week 6 activities"
+
+# World Complete - Ready for Week 6 PBL Implementation
+
+

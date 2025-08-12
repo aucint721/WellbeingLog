@@ -1,0 +1,98 @@
+{
+  "zotero": {
+    "api_key": "mXJIVMNO4UkRYYvd5ecVTiZM",
+    "library_id": "16791904",
+    "library_type": "user",
+    "enabled": true,
+    "collections": {
+      "EDSP 505": "XA82H6YJ",
+      "EDSP 554": "CCK2H6L3",
+      "EDSP 552": "8TFT4NZN",
+      "EDCX 513": "7J8AYFFP"
+    }
+  },
+  "course_details": {
+    "EDSP 505": {
+      "title": "Issues in Inclusive Education: International Perspectives",
+      "keywords": ["inclusive", "education", "international", "perspectives", "disability", "accessibility", "equity", "diversity", "global", "comparative"],
+      "collection_key": "XA82H6YJ"
+    },
+    "EDSP 554": {
+      "title": "Autism: Evidence Based Intervention",
+      "keywords": ["autism", "intervention", "evidence", "based", "ASD", "autism spectrum", "therapy", "treatment", "behavioral", "developmental", "neurodiversity"],
+      "collection_key": "CCK2H6L3"
+    },
+    "EDSP 552": {
+      "title": "Positive Behavioural Support (Special and Inclusive Education)",
+      "keywords": ["behavioral", "support", "positive", "special", "inclusive", "education", "PBS", "intervention", "management", "discipline", "reinforcement"],
+      "collection_key": "8TFT4NZN"
+    },
+    "EDCX 513": {
+      "title": "Aboriginal Education",
+      "keywords": ["aboriginal", "indigenous", "first nations", "native", "cultural", "education", "traditional", "knowledge", "heritage", "community", "reconciliation"],
+      "collection_key": "7J8AYFFP"
+    }
+  },
+  "calibre": {
+    "path": "/Applications/calibre.app/Contents/MacOS",
+    "library_path": "~/Calibre Library",
+    "enabled": true
+  },
+  "research_workflow": {
+    "downloads_folder": "~/Downloads",
+    "research_extensions": ["pdf", "doc", "docx", "epub", "mobi", "txt", "md"],
+    "auto_upload_to_zotero": true,
+    "auto_archive_to_calibre": true,
+    "metadata_extraction": true,
+    "file_naming": "smart",
+    "backup_original": true,
+    "auto_categorize": true,
+    "enhanced_course_detection": true
+  },
+  "categories": [
+    "papers",
+    "books",
+    "reports",
+    "presentations",
+    "data",
+    "unsorted",
+    "screenshots",
+    "videos",
+    "audio",
+    "transcripts",
+    "web",
+    "writing",
+    "latex",
+    "templates"
+  ],
+  "writing_tools": {
+    "bean": {
+      "path": "/Applications/Bean.app",
+      "enabled": true,
+      "templates_dir": "~/Documents/Research/Templates/Bean"
+    },
+    "texstudio": {
+      "path": "/Applications/texstudio-4.8.6-osx.app/Contents/MacOS/texstudio",
+      "enabled": true,
+      "templates_dir": "~/Documents/Research/Templates/LaTeX"
+    },
+    "latex": {
+      "path": "/Library/TeX/texbin",
+      "enabled": true,
+      "compiler": "pdflatex",
+      "bibtex": "bibtex"
+    }
+  },
+  "research_tools": {
+    "scispace": {
+      "enabled": true,
+      "export_dir": "~/Documents/Research/SciSpace_Exports",
+      "api_integration": false
+    },
+    "bibdesk": {
+      "path": "/Applications/TeX/BibDesk.app",
+      "enabled": true,
+      "library_path": "~/Documents/Research/Bibliography"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "source_directories": [
+    "~/Downloads",
+    "~/Desktop"
+  ],
+  "research_base_dir": "~/Documents/Research",
+  "categories": {
+    "papers": [
+      "pdf",
+      "docx",
+      "doc"
+    ],
+    "books": [
+      "pdf",
+      "epub",
+      "mobi"
+    ],
+    "reports": [
+      "pdf",
+      "docx",
+      "doc"
+    ],
+    "presentations": [
+      "pptx",
+      "ppt",
+      "pdf"
+    ],
+    "data": [
+      "csv",
+      "xlsx",
+      "json",
+      "sqlite"
+    ],
+    "screenshots": [
+      "png",
+      "jpg",
+      "jpeg",
+      "gif",
+      "bmp"
+    ],
+    "videos": [
+      "mp4",
+      "mov",
+      "avi",
+      "mkv",
+      "wmv"
+    ],
+    "audio": [
+      "mp3",
+      "wav",
+      "aac",
+      "m4a",
+      "flac"
+    ],
+    "transcripts": [
+      "txt",
+      "srt",
+      "vtt"
+    ],
+    "web": [
+      "html",
+      "htm"
+    ],
+    "writing": [
+      "rtf",
+      "rtfd",
+      "doc",
+      "docx"
+    ],
+    "latex": [
+      "tex",
+      "bib",
+      "sty",
+      "cls",
+      "bbl"
+    ],
+    "templates": [
+      "template",
+      "tpl"
+    ],
+    "unsorted": []
+  },
+  "zotero": {
+    "library_id": "YOUR_LIBRARY_ID",
+    "api_key": "YOUR_API_KEY",
+    "library_type": "user"
+  },
+  "calibre": {
+    "path": "/Applications/calibre.app/Contents/MacOS",
+    "library_path": "~/Calibre Library",
+    "db_path": "~/Calibre Library/metadata.db",
+    "enabled": true
+  },
+  "writing_tools": {
+    "bean": {
+      "path": "/Applications/Bean.app",
+      "enabled": true,
+      "templates_dir": "~/Documents/Research/Templates/Bean"
+    },
+    "texstudio": {
+      "path": "/Applications/texstudio-4.8.6-osx.app/Contents/MacOS/texstudio",
+      "enabled": true,
+      "templates_dir": "~/Documents/Research/Templates/LaTeX"
+    },
+    "latex": {
+      "path": "/Library/TeX/texbin",
+      "enabled": true,
+      "compiler": "pdflatex",
+      "bibtex": "bibtex"
+    }
+  },
+  "research_tools": {
+    "scispace": {
+      "enabled": true,
+      "export_dir": "~/Documents/Research/SciSpace_Exports",
+      "api_integration": false
+    },
+    "bibdesk": {
+      "path": "/Applications/TeX/BibDesk.app",
+      "enabled": true,
+      "library_path": "~/Documents/Research/Bibliography"
+    }
+  },
+  "file_naming": {
+    "use_author_year": true,
+    "use_original_name": false,
+    "add_timestamp": true
+  },
+  "metadata_extraction": {
+    "extract_pdf_metadata": true,
+    "extract_docx_metadata": true,
+    "extract_bibtex": true
+  },
+  "auto_organization": {
+    "enabled": true,
+    "move_files": true,
+    "create_backup": true
+  }
+}

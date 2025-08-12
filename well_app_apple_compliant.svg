@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with solid color -->
+  <circle cx="512" cy="512" r="480" fill="#4A90E2" stroke="#2C3E50" stroke-width="8"/>
+  
+  <!-- Large heart symbol for wellbeing -->
+  <path d="M512 250 C512 250, 400 180, 320 250 C240 320, 320 450, 512 600 C704 450, 784 320, 704 250 C624 180, 512 250, 512 250 Z" 
+        fill="#FF6B6B" stroke="#C0392B" stroke-width="6"/>
+  
+  <!-- Plus symbol for health/medical -->
+  <g stroke="#FFFFFF" stroke-width="32" stroke-linecap="round">
+    <line x1="512" y1="700" x2="512" y2="820"/>
+    <line x1="432" y1="760" x2="592" y2="760"/>
+  </g>
+  
+  <!-- Subtle inner circle for depth -->
+  <circle cx="512" cy="512" r="400" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.2"/>
+</svg> 

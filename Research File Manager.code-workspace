@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "name": "Research File Manager",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "./research_env/bin/python",
+        "python.terminal.activateEnvironment": true,
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true,
+            "**/research_env": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",
+            "ms-python.black-formatter",
+            "ms-python.isort",
+            "ms-python.flake8"
+        ]
+    }
+}
