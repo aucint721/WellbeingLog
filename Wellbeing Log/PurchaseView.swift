@@ -8,11 +8,11 @@ struct PurchaseView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 30) {
-                // Header
-                VStack(spacing: 16) {
-                    Image(systemName: "heart.fill")
-                        .font(.system(size: 60))
-                        .foregroundColor(.red)
+                // Header with Premium Badge
+                VStack(spacing: 20) {
+                    // Premium Badge
+                    PremiumBadgeView(size: 180)
+                        .padding(.bottom, 10)
                     
                     Text("Unlock Premium Features")
                         .font(.largeTitle)

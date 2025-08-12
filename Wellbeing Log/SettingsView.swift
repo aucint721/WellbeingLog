@@ -18,32 +18,39 @@ struct SettingsView: View {
             List {
                 // Subscription Status Header
                 Section {
-                    HStack {
-                        VStack(alignment: .leading, spacing: 8) {
-                            HStack {
-                                Image(systemName: subscriptionManager.isPurchased ? "crown.fill" : 
-                                          subscriptionManager.isInTrial ? "clock.badge" : "exclamationmark.triangle.fill")
-                                    .foregroundColor(subscriptionManager.isPurchased ? .yellow : 
-                                                   subscriptionManager.isInTrial ? .blue : .orange)
-                                    .font(.title)
-                                
-                                VStack(alignment: .leading, spacing: 2) {
-                                    Text(subscriptionManager.isPurchased ? "Premium Active" : 
-                                         subscriptionManager.isInTrial ? "Trial Period" : "Trial Expired")
-                                        .font(.title2)
-                                        .fontWeight(.bold)
+                    VStack(spacing: 16) {
+                        // Premium Badge for Premium Users
+                        if subscriptionManager.isPurchased {
+                            PremiumBadgeView(size: 120)
+                                .padding(.vertical, 8)
+                        }
+                        
+                        HStack {
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack {
+                                    Image(systemName: subscriptionManager.isPurchased ? "crown.fill" : 
+                                              subscriptionManager.isInTrial ? "clock.badge" : "exclamationmark.triangle.fill")
+                                        .foregroundColor(subscriptionManager.isPurchased ? .yellow : 
+                                                       subscriptionManager.isInTrial ? .blue : .orange)
+                                        .font(.title)
                                     
-                                    Text(subscriptionManager.trialStatusDescription)
-                                        .font(.caption)
-                                        .foregroundColor(.secondary)
-                                    
-                                    if subscriptionManager.isInTrial {
-                                        Text(subscriptionManager.trialExpirationText)
+                                    VStack(alignment: .leading, spacing: 2) {
+                                        Text(subscriptionManager.isPurchased ? "Premium Active" : 
+                                             subscriptionManager.isInTrial ? "Trial Period" : "Trial Expired")
+                                            .font(.title2)
+                                            .fontWeight(.bold)
+                                        
+                                        Text(subscriptionManager.trialStatusDescription)
                                             .font(.caption)
-                                            .foregroundColor(.blue)
+                                            .foregroundColor(.secondary)
+                                        
+                                        if subscriptionManager.isInTrial {
+                                            Text(subscriptionManager.trialExpirationText)
+                                                .font(.caption)
+                                                .foregroundColor(.blue)
+                                        }
                                     }
                                 }
-                            }
                             
                             if subscriptionManager.isInTrial {
                                 VStack(alignment: .leading, spacing: 8) {
@@ -77,6 +84,18 @@ struct SettingsView: View {
                                             .progressViewStyle(LinearProgressViewStyle(tint: .blue))
                                             .scaleEffect(x: 1, y: 1.5, anchor: .center)
                                     }
+                                    
+                                    // Premium Preview for Trial Users
+                                    VStack(alignment: .center, spacing: 8) {
+                                        Text("Upgrade to Premium")
+                                            .font(.caption)
+                                            .foregroundColor(.secondary)
+                                            .padding(.top, 8)
+                                        
+                                        PremiumBadgeView(size: 80)
+                                            .opacity(0.8)
+                                    }
+                                    .frame(maxWidth: .infinity)
                                 }
                             }
                         }
