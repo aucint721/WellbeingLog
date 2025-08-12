@@ -51,56 +51,57 @@ struct SettingsView: View {
                                         }
                                     }
                                 }
-                            
-                            if subscriptionManager.isInTrial {
-                                VStack(alignment: .leading, spacing: 8) {
-                                    HStack {
-                                        Text("\(subscriptionManager.trialDaysRemaining) days remaining")
-                                            .font(.headline)
-                                            .foregroundColor(.blue)
-                                        Spacer()
-                                        if !subscriptionManager.isPurchased {
-                                            Button("Upgrade Now") {
-                                                showingPurchaseSheet = true
-                                            }
-                                            .buttonStyle(.borderedProminent)
-                                            .controlSize(.small)
-                                        }
-                                    }
-                                    
-                                    // Trial Progress Bar
-                                    VStack(alignment: .leading, spacing: 4) {
+                                
+                                if subscriptionManager.isInTrial {
+                                    VStack(alignment: .leading, spacing: 8) {
                                         HStack {
-                                            Text("Trial Progress")
-                                                .font(.caption)
-                                                .foregroundColor(.secondary)
+                                            Text("\(subscriptionManager.trialDaysRemaining) days remaining")
+                                                .font(.headline)
+                                                .foregroundColor(.blue)
                                             Spacer()
-                                            Text("\(Int(subscriptionManager.trialProgressPercentage * 100))%")
-                                                .font(.caption)
-                                                .foregroundColor(.secondary)
+                                            if !subscriptionManager.isPurchased {
+                                                Button("Upgrade Now") {
+                                                    showingPurchaseSheet = true
+                                                }
+                                                .buttonStyle(.borderedProminent)
+                                                .controlSize(.small)
+                                            }
                                         }
                                         
-                                        ProgressView(value: subscriptionManager.trialProgressPercentage)
-                                            .progressViewStyle(LinearProgressViewStyle(tint: .blue))
-                                            .scaleEffect(x: 1, y: 1.5, anchor: .center)
-                                    }
-                                    
-                                    // Premium Preview for Trial Users
-                                    VStack(alignment: .center, spacing: 8) {
-                                        Text("Upgrade to Premium")
-                                            .font(.caption)
-                                            .foregroundColor(.secondary)
-                                            .padding(.top, 8)
+                                        // Trial Progress Bar
+                                        VStack(alignment: .leading, spacing: 4) {
+                                            HStack {
+                                                Text("Trial Progress")
+                                                    .font(.caption)
+                                                    .foregroundColor(.secondary)
+                                                Spacer()
+                                                Text("\(Int(subscriptionManager.trialProgressPercentage * 100))%")
+                                                    .font(.caption)
+                                                    .foregroundColor(.secondary)
+                                            }
+                                            
+                                            ProgressView(value: subscriptionManager.trialProgressPercentage)
+                                                .progressViewStyle(LinearProgressViewStyle(tint: .blue))
+                                                .scaleEffect(x: 1, y: 1.5, anchor: .center)
+                                        }
                                         
-                                        PremiumBadgeView(size: 80)
-                                            .opacity(0.8)
+                                        // Premium Preview for Trial Users
+                                        VStack(alignment: .center, spacing: 8) {
+                                            Text("Upgrade to Premium")
+                                                .font(.caption)
+                                                .foregroundColor(.secondary)
+                                                .padding(.top, 8)
+                                            
+                                            PremiumBadgeView(size: 80)
+                                                .opacity(0.8)
+                                        }
+                                        .frame(maxWidth: .infinity)
                                     }
-                                    .frame(maxWidth: .infinity)
                                 }
                             }
+                            
+                            Spacer()
                         }
-                        
-                        Spacer()
                     }
                     .padding(.vertical, 8)
                 }
@@ -415,6 +416,8 @@ struct SettingsView: View {
         }
         .navigationViewStyle(.stack)
     }
+    
+    // MARK: - Helper Functions
     
     private func exportStatistics() {
         let statistics = generateStatistics()
@@ -785,7 +788,5 @@ struct ImportStudentsView: View {
         }
     }
 }
-
-
 
 
