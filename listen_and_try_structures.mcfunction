@@ -100,103 +100,90 @@ setblock -6 68 -75 oak_leaves
 setblock -5 68 -74 oak_leaves
 setblock -5 68 -76 oak_leaves
 
-# Add water features
-setblock -25 65 -85 water
-setblock -25 65 -84 water
-setblock -25 65 -83 water
-setblock -26 65 -84 water
-setblock -24 65 -84 water
-
-# Add reflection spots (benches)
-setblock -35 65 -85 oak_stairs 0
-setblock -15 65 -85 oak_stairs 0
-setblock -35 65 -55 oak_stairs 0
-setblock -15 65 -55 oak_stairs 0
-
 # ========================================
-# ZONE 3: PERSEVERANCE WORKSHOP (0, 64, -100 to 100, 70, -50)
+# ZONE 3: AGE-SPECIFIC CHALLENGE AREAS (0, 64, -100 to 100, 70, -50)
 # ========================================
 
-# Create workshop foundation
-fill 0 64 -100 100 64 -50 stone_bricks
+# Prep-Year 2: Simple Building Challenges
+# Basic house building area
+fill 0 64 -100 25 64 -50 sand
+fill 0 65 -100 25 70 -50 air
 
-# Add challenge areas
-# Bridge building zone
-fill 0 65 -100 25 65 -75 air
-fill 0 66 -100 25 66 -75 air
-fill 0 67 -100 25 67 -75 air
+# Simple house templates
+# House 1 - Basic structure
+setblock 5 65 -80 oak_planks
+setblock 5 66 -80 oak_planks
+setblock 5 67 -80 oak_planks
+setblock 4 67 -80 oak_planks
+setblock 6 67 -80 oak_planks
+setblock 5 67 -79 oak_planks
+setblock 5 67 -81 oak_planks
 
-# Tower construction zone
-fill 25 65 -100 50 65 -75 air
-fill 25 66 -100 50 66 -75 air
-fill 25 67 -100 50 67 -75 air
+# House 2 - Simple shelter
+setblock 15 65 -80 stone
+setblock 15 66 -80 stone
+setblock 15 67 -80 stone
+setblock 14 67 -80 stone
+setblock 16 67 -80 stone
 
-# Maze creation zone
-fill 50 65 -100 75 65 -75 air
-fill 50 66 -100 75 66 -75 air
-fill 50 67 -100 75 67 -75 air
+# Years 3-6: Team Collaboration Challenges
+# Team building area
+fill 25 64 -100 50 64 -50 grass_block
+fill 25 65 -100 50 70 -50 air
 
-# Machine building zone
-fill 75 65 -100 100 65 -75 air
-fill 75 66 -100 100 66 -75 air
-fill 75 67 -100 100 67 -75 air
+# Team challenge stations
+# Communication tower challenge
+setblock 30 65 -80 command_block
+setblock 35 65 -80 command_block
+setblock 40 65 -80 command_block
 
-# Add resource stations
-# Building materials
-setblock 0 65 -75 chest
-setblock 1 65 -75 stone 64
-setblock 2 65 -75 oak_planks 64
-setblock 3 65 -75 glass 32
+# Bridge building challenge
+fill 30 64 -70 45 64 -70 water
+setblock 30 65 -70 oak_planks
+setblock 35 65 -70 oak_planks
+setblock 40 65 -70 oak_planks
+setblock 45 65 -70 oak_planks
 
-# Tools
-setblock 5 65 -75 chest
-setblock 6 65 -75 diamond_pickaxe
-setblock 7 65 -75 diamond_axe
-setblock 8 65 -75 diamond_shovel
+# Years 7-10: Advanced Problem-Solving
+# Complex engineering area
+fill 50 64 -100 75 64 -50 stone
+fill 50 65 -100 75 70 -50 air
 
-# Redstone for machines
-setblock 10 65 -75 chest
-setblock 11 65 -75 redstone 16
-setblock 12 65 -75 redstone_torch 8
+# Redstone engineering challenges
+setblock 55 65 -80 redstone_lamp
+setblock 60 65 -80 redstone_lamp
+setblock 65 65 -80 redstone_lamp
+setblock 70 65 -80 redstone_lamp
 
-# Testing equipment
-setblock 15 65 -75 chest
-setblock 16 65 -75 clock
-setblock 17 65 -75 compass
+# Advanced building challenges
+setblock 55 65 -70 command_block
+setblock 60 65 -70 command_block
+setblock 65 65 -70 command_block
+setblock 70 65 -70 command_block
 
 # ========================================
-# ZONE 4: COLLABORATION ARENA (-100, 64, -50 to -50, 70, 0)
+# ZONE 4: ADDITIONAL CHALLENGE AREAS (75, 64, -100 to 100, 70, -50)
 # ========================================
 
-# Build arena foundation
-fill -100 64 -50 -50 64 0 polished_andesite
+# Creative expression area
+fill 75 64 -100 100 64 -50 wool
+fill 75 65 -100 100 70 -50 air
 
-# Create presentation stage
-fill -95 65 -5 -55 65 -5 stone_bricks
-fill -95 66 -5 -55 66 -5 stone_bricks
-fill -95 67 -5 -55 67 -5 stone_bricks
+# Art stations
+setblock 80 65 -80 easel
+setblock 85 65 -80 easel
+setblock 90 65 -80 easel
+setblock 95 65 -80 easel
 
-# Add stage lighting
-setblock -75 70 -3 glowstone
-setblock -85 70 -3 glowstone
-setblock -65 70 -3 glowstone
+# Music and rhythm area
+setblock 80 65 -70 note_block
+setblock 85 65 -70 note_block
+setblock 90 65 -70 note_block
+setblock 95 65 -70 note_block
 
-# Create team meeting areas
-# Team 1 meeting space
-fill -95 65 -45 -85 65 -35 air
-setblock -90 65 -40 crafting_table
-
-# Team 2 meeting space
-fill -85 65 -45 -75 65 -35 air
-setblock -80 65 -40 crafting_table
-
-# Team 3 meeting space
-fill -75 65 -45 -65 65 -35 air
-setblock -70 65 -40 crafting_table
-
-# Team 4 meeting space
-fill -65 65 -45 -55 65 -35 air
-setblock -60 65 -40 crafting_table
+# ========================================
+# ZONE 5: FEEDBACK AND REFLECTION (-100, 64, -50 to -50, 70, 0)
+# ========================================
 
 # Add feedback stations
 setblock -90 65 -30 crafting_table
@@ -212,6 +199,34 @@ setblock -90 65 -20 oak_sapling
 # Garden 2
 fill -75 65 -25 -65 65 -15 grass_block
 setblock -70 65 -20 birch_sapling
+
+# Garden 3
+fill -55 65 -25 -45 65 -15 grass_block
+setblock -50 65 -20 spruce_sapling
+
+# Garden 4
+fill -95 65 -5 -85 65 5 grass_block
+setblock -90 65 0 jungle_sapling
+
+# ========================================
+# ZONE 6: ASSESSMENT AND TRACKING (-50, 64, -50 to 0, 70, 0)
+# ========================================
+
+# Assessment center
+fill -50 64 -50 0 64 0 stone_bricks
+fill -50 65 -50 0 70 0 air
+
+# Progress tracking boards
+setblock -40 66 -40 wall_sign 2
+setblock -30 66 -40 wall_sign 2
+setblock -20 66 -40 wall_sign 2
+setblock -10 66 -40 wall_sign 2
+
+# Team achievement displays
+setblock -35 66 -30 wool 11
+setblock -25 66 -30 wool 14
+setblock -15 66 -30 wool 13
+setblock -5 66 -30 wool 4
 
 # ========================================
 # COMMAND BLOCKS AND AUTOMATION
@@ -230,6 +245,18 @@ setblock -20 65 -75 command_block
 setblock -30 65 -75 command_block
 setblock -35 65 -75 command_block
 
+# Age-specific challenge command blocks
+setblock 10 65 -75 command_block
+setblock 20 65 -75 command_block
+setblock 30 65 -75 command_block
+setblock 40 65 -75 command_block
+
+# Assessment tracking command blocks
+setblock -35 65 -35 command_block
+setblock -25 65 -35 command_block
+setblock -15 65 -35 command_block
+setblock -5 65 -35 command_block
+
 # ========================================
 # NPCs AND DIALOGUE SYSTEM
 # ========================================
@@ -244,8 +271,15 @@ summon villager -70 65 -70 {CustomName:"Ms. Try",Profession:1,Career:1,Offers:{R
 # Support NPCs
 summon villager -25 65 -25 {CustomName:"Friend Felix",Profession:1,Career:1,Offers:{Recipes:[{buy:{id:"apple",Count:1},sell:{id:"emerald",Count:1}}]}}
 
+# Age-specific guide NPCs
+summon villager 10 65 -75 {CustomName:"Teacher Sam",Profession:1,Career:1,Offers:{Recipes:[{buy:{id:"dirt",Count:1},sell:{id:"emerald",Count:1}}]}}
+
+summon villager 35 65 -75 {CustomName:"Coach Alex",Profession:1,Career:1,Offers:{Recipes:[{buy:{id:"stone",Count:1},sell:{id:"emerald",Count:1}}]}}
+
+summon villager 60 65 -75 {CustomName:"Mentor Jordan",Profession:1,Career:1,Offers:{Recipes:[{buy:{id:"redstone",Count:1},sell:{id:"emerald",Count:1}}]}}
+
 # ========================================
-# SCOREBOARD SETUP
+# ENHANCED SCOREBOARD SETUP
 # ========================================
 
 # Create scoreboard objectives
@@ -253,9 +287,13 @@ scoreboard objectives add listening dummy
 scoreboard objectives add trying dummy
 scoreboard objectives add empathy dummy
 scoreboard objectives add collaboration dummy
+scoreboard objectives add problemsolving dummy
+scoreboard objectives add creativity dummy
+scoreboard objectives add leadership dummy
+scoreboard objectives add reflection dummy
 
 # ========================================
-# TEAM SETUP
+# ENHANCED TEAM SETUP
 # ========================================
 
 # Create teams
@@ -271,7 +309,7 @@ scoreboard teams option Team3 color green
 scoreboard teams option Team4 color yellow
 
 # ========================================
-# RESOURCE DISTRIBUTION
+# AGE-SPECIFIC RESOURCE DISTRIBUTION
 # ========================================
 
 # Give starting resources to all players
@@ -286,8 +324,26 @@ give @a bucket 1
 give @a book 1
 give @a paper 16
 
+# Age-specific additional resources
+# Prep-Year 2: Simple building materials
+give @a wool 32
+give @a carpet 16
+give @a flowers 16
+
+# Years 3-6: Team collaboration tools
+give @a signs 8
+give @a item_frame 4
+give @a map 1
+
+# Years 7-10: Advanced materials
+give @a observer 4
+give @a piston 8
+give @a sticky_piston 4
+give @a repeater 8
+give @a comparator 4
+
 # ========================================
-# THEME MESSAGES AND ENCOURAGEMENT
+# ENHANCED THEME MESSAGES AND ENCOURAGEMENT
 # ========================================
 
 # Display welcome message
@@ -302,8 +358,13 @@ tellraw @a {"text":"• Trying even when it's hard","color":"aqua"}
 tellraw @a {"text":"• Supporting our teammates","color":"aqua"}
 tellraw @a {"text":"• Learning from our mistakes","color":"aqua"}
 
+# Age-specific welcome messages
+tellraw @a {"text":"Prep-Year 2: Build simple houses and work together!","color":"light_purple"}
+tellraw @a {"text":"Years 3-6: Complete team challenges and communicate!","color":"light_blue"}
+tellraw @a {"text":"Years 7-10: Solve complex problems and lead your team!","color":"yellow"}
+
 # ========================================
-# ENCOURAGEMENT SYSTEM
+# ENHANCED ENCOURAGEMENT SYSTEM
 # ========================================
 
 # Positive reinforcement messages
@@ -312,8 +373,13 @@ tellraw @a {"text":"Great listening! Keep trying!","color":"green"}
 tellraw @a {"text":"Mistakes help us learn and grow!","color":"green"}
 tellraw @a {"text":"We're stronger when we work together!","color":"green"}
 
+# Age-specific encouragement
+tellraw @a {"text":"Little builders: You're doing amazing!","color":"light_purple"}
+tellraw @a {"text":"Team players: Great collaboration!","color":"light_blue"}
+tellraw @a {"text":"Leaders: You're inspiring others!","color":"yellow"}
+
 # ========================================
-# GUIDELINES AND SAFETY SIGNS
+# ENHANCED GUIDELINES AND SAFETY SIGNS
 # ========================================
 
 # Add communication guidelines signs
@@ -328,8 +394,13 @@ setblock -30 66 -75 wall_sign 2
 setblock 5 66 -75 wall_sign 2
 setblock -70 66 -5 wall_sign 2
 
+# Age-specific guideline signs
+setblock 10 66 -95 wall_sign 2
+setblock 35 66 -95 wall_sign 2
+setblock 60 66 -95 wall_sign 2
+
 # ========================================
-# ACTIVITY STATIONS
+# ENHANCED ACTIVITY STATIONS
 # ========================================
 
 # Listening stations
@@ -350,8 +421,32 @@ setblock -70 65 -20 birch_sapling
 setblock -50 65 -20 spruce_sapling
 setblock -30 65 -20 jungle_sapling
 
+# Age-specific activity stations
+setblock 55 65 -80 command_block
+setblock 60 65 -80 command_block
+setblock 65 65 -80 command_block
+setblock 70 65 -80 command_block
+
 # ========================================
-# WORLD COMPLETE MESSAGE
+# ENHANCED ASSESSMENT SYSTEM
+# ========================================
+
+# Daily progress tracking
+scoreboard objectives add daily_listening dummy
+scoreboard objectives add daily_trying dummy
+scoreboard objectives add daily_collaboration dummy
+
+# Weekly achievement tracking
+scoreboard objectives add weekly_goals dummy
+scoreboard objectives add weekly_reflection dummy
+
+# Team performance metrics
+scoreboard objectives add team_communication dummy
+scoreboard objectives add team_problemsolving dummy
+scoreboard objectives add team_creativity dummy
+
+# ========================================
+# ENHANCED WORLD COMPLETE MESSAGE
 # ========================================
 
 # Final confirmation
@@ -359,7 +454,7 @@ tellraw @a {"text":"Week 6 world setup complete!","color":"green","bold":true}
 tellraw @a {"text":"Ready to listen, learn, and try together!","color":"gold"}
 
 # ========================================
-# DAILY ENCOURAGEMENT
+# ENHANCED DAILY ENCOURAGEMENT
 # ========================================
 
 # Morning message
@@ -375,10 +470,25 @@ tellraw @a {"text":"Great work today! What did you learn about listening?","colo
 tellraw @a {"text":"What will you try differently tomorrow?","color":"purple"}
 
 # ========================================
+# ENHANCED WEEKLY PROGRESS TRACKING
+# ========================================
+
+# Week 6 progress milestones
+tellraw @a {"text":"Week 6 Progress Check:","color":"gold","bold":true}
+tellraw @a {"text":"• Day 1-2: Communication skills","color":"aqua"}
+tellraw @a {"text":"• Day 3-4: Team collaboration","color":"aqua"}
+tellraw @a {"text":"• Day 5: Problem-solving challenges","color":"aqua"}
+tellraw @a {"text":"• Day 6-7: Reflection and growth","color":"aqua"}
+
+# ========================================
 # WORLD COMPLETE - READY FOR WEEK 6
 # ========================================
 
 # Final setup confirmation
 tellraw @a {"text":"Week 6 PBL world ready! Let's listen and try together!","color":"green","bold":true}
+tellraw @a {"text":"All zones completed: Communication, Empathy, Challenges, Assessment","color":"gold"}
+tellraw @a {"text":"Age-appropriate activities for Prep-Year 10","color":"gold"}
+tellraw @a {"text":"Enhanced tracking and encouragement systems active","color":"gold"}
+tellraw @a {"text":"Ready for school-wide access during Week 6!","color":"green","bold":true}
 
 
