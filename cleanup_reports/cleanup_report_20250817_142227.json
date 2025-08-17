@@ -1,0 +1,31 @@
+{
+  "scan_date": "2025-08-17T14:22:27.719281",
+  "total_files": 0,
+  "total_size": 0,
+  "total_size_human": "0B",
+  "potential_savings": 0,
+  "potential_savings_human": "0B",
+  "categories": {
+    "large_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "old_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "unused_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "duplicate_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    }
+  },
+  "high_risk_files": []
+}

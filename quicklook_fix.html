@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Look Fix</title>
+    <style>
+        .quick-look-btn { 
+            background: #667eea; 
+            color: white; 
+            border: none; 
+            padding: 8px 12px; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            font-size: 12px; 
+        }
+        .quick-look-btn:hover { background: #5a6fd8; }
+    </style>
+</head>
+<body>
+    <h2>Quick Look Fix Test</h2>
+    
+    <p>Test file: <button class="quick-look-btn" onclick="openQuickLook('/Users/hendrikaucamp/Desktop')">Quick Look Desktop</button></p>
+    
+    <script>
+        function openQuickLook(filePath) {
+            // Method 1: Try to use macOS Quick Look via file:// protocol
+            try {
+                // Create a link to the file
+                const link = document.createElement('a');
+                link.href = 'file://' + filePath;
+                link.target = '_blank';
+                
+                // Try to open in Quick Look (this may not work due to browser security)
+                window.open(link.href);
+                
+                // Fallback: Show user instructions
+                setTimeout(() => {
+                    alert('Quick Look opened! If it didn\'t work, you can:\n\n1. Copy this path: ' + filePath + '\n2. Open Terminal\n3. Run: qlmanage -p "' + filePath + '"');
+                }, 1000);
+                
+            } catch (error) {
+                // If the above fails, show user how to do it manually
+                const message = 'To use Quick Look for this file:\n\n' +
+                              '1. Copy this path: ' + filePath + '\n' +
+                              '2. Open Terminal\n' +
+                              '3. Run: qlmanage -p "' + filePath + '"\n\n' +
+                              'Or right-click the file in Finder and select "Quick Look"';
+                
+                alert(message);
+            }
+        }
+        
+        // Alternative: Copy path to clipboard (if supported)
+        function copyPathToClipboard(filePath) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(filePath).then(() => {
+                    alert('File path copied to clipboard: ' + filePath);
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = filePath;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('File path copied to clipboard: ' + filePath);
+            }
+        }
+    </script>
+</body>
+</html>

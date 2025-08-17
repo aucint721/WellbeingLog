@@ -1,0 +1,50 @@
+{
+  "scan_directories": [
+    "~/Downloads",
+    "~/Desktop",
+    "~/Documents",
+    "~/Pictures",
+    "~/Movies",
+    "~/Music"
+  ],
+  "exclude_directories": [
+    "~/Library",
+    "~/Applications",
+    "~/System",
+    "~/.Trash"
+  ],
+  "exclude_extensions": [
+    ".app",
+    ".dmg",
+    ".pkg",
+    ".kext",
+    ".bundle"
+  ],
+  "size_thresholds": {
+    "large_files_mb": 100,
+    "huge_files_mb": 500,
+    "massive_files_mb": 1000
+  },
+  "age_thresholds": {
+    "old_files_days": 365,
+    "very_old_files_days": 730,
+    "ancient_files_days": 1095
+  },
+  "access_thresholds": {
+    "unused_files_days": 180,
+    "rarely_used_files_days": 90
+  },
+  "risk_scoring": {
+    "size_weight": 0.4,
+    "age_weight": 0.3,
+    "access_weight": 0.3
+  },
+  "output_formats": [
+    "json",
+    "csv",
+    "html"
+  ],
+  "enable_quick_look": true,
+  "enable_duplicate_detection": true,
+  "max_scan_depth": 10
+}

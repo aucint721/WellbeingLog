@@ -1,0 +1,83 @@
+{
+  "scan_date": "2025-08-17T12:12:07.573811",
+  "total_files": 3,
+  "total_size": 2526025,
+  "total_size_human": "2.4MB",
+  "potential_savings": 0,
+  "potential_savings_human": "0B",
+  "categories": {
+    "large_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "old_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "unused_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    },
+    "duplicate_files": {
+      "count": 0,
+      "total_size": 0,
+      "files": []
+    }
+  },
+  "high_risk_files": [
+    {
+      "path": "test_files/large_file.txt",
+      "name": "large_file.txt",
+      "size": 2500000,
+      "size_human": "2.4MB",
+      "modified": "2025-08-17 12:12:07.567978",
+      "accessed": "2025-08-17 12:12:07.567686",
+      "created": "2025-08-17 12:12:07.567978",
+      "age_days": 0,
+      "last_access_days": 0,
+      "extension": ".txt",
+      "is_hidden": false,
+      "is_system": false,
+      "quick_look_url": "file:///Users/hendrikaucamp/Wellbeing Log/test_files/large_file.txt",
+      "duplicate_group": null,
+      "risk_score": 0.95
+    },
+    {
+      "path": "test_files/medium_file.txt",
+      "name": "medium_file.txt",
+      "size": 26000,
+      "size_human": "25.4KB",
+      "modified": "2025-08-17 12:12:07.567648",
+      "accessed": "2025-08-17 12:12:07.567590",
+      "created": "2025-08-17 12:12:07.567648",
+      "age_days": 0,
+      "last_access_days": 0,
+      "extension": ".txt",
+      "is_hidden": false,
+      "is_system": false,
+      "quick_look_url": "file:///Users/hendrikaucamp/Wellbeing Log/test_files/medium_file.txt",
+      "duplicate_group": null,
+      "risk_score": 0.01
+    },
+    {
+      "path": "test_files/small_file.txt",
+      "name": "small_file.txt",
+      "size": 25,
+      "size_human": "25.0B",
+      "modified": "2025-08-17 12:12:07.567543",
+      "accessed": "2025-08-17 12:12:07.567486",
+      "created": "2025-08-17 12:12:07.567543",
+      "age_days": 0,
+      "last_access_days": 0,
+      "extension": ".txt",
+      "is_hidden": false,
+      "is_system": false,
+      "quick_look_url": "file:///Users/hendrikaucamp/Wellbeing Log/test_files/small_file.txt",
+      "duplicate_group": null,
+      "risk_score": 0.0
+    }
+  ]
+}
