@@ -19,9 +19,11 @@ struct SettingsView: View {
                 // Subscription Status Header
                 Section {
                     VStack(spacing: 16) {
-                        // Premium Badge for Premium Users
+                        // Status indicator for Premium Users
                         if subscriptionManager.isPurchased {
-                            PremiumBadgeView(size: 120)
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundColor(.green)
+                                .font(.system(size: 60))
                                 .padding(.vertical, 8)
                         }
                         
@@ -85,15 +87,17 @@ struct SettingsView: View {
                                                 .scaleEffect(x: 1, y: 1.5, anchor: .center)
                                         }
                                         
-                                        // Premium Preview for Trial Users
+                                        // Upgrade Information for Trial Users
                                         VStack(alignment: .center, spacing: 8) {
                                             Text("Upgrade to Premium")
                                                 .font(.caption)
                                                 .foregroundColor(.secondary)
                                                 .padding(.top, 8)
                                             
-                                            PremiumBadgeView(size: 80)
-                                                .opacity(0.8)
+                                            Text("$9.99 one-time purchase")
+                                                .font(.caption)
+                                                .fontWeight(.semibold)
+                                                .foregroundColor(.blue)
                                         }
                                         .frame(maxWidth: .infinity)
                                     }

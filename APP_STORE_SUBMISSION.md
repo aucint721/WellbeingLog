@@ -1,7 +1,7 @@
 # App Store Submission Guide - Wellbeing Log
 
 ## 🚀 App Overview
-**Wellbeing Log** is a professional iOS application designed for educational institutions to track student wellbeing, attendance, and room management with real-time CloudKit synchronization. The app now features a **beautiful freemium model** with a 30-day free trial and premium upgrade experience.
+**Wellbeing Log** is a professional iOS application designed for educational institutions to track student wellbeing, attendance, and room management with real-time CloudKit synchronization. The app features a simple trial model with a one-time premium upgrade.
 
 ## 💰 Pricing & Business Model
 - **Free Trial**: 30 days of full access to all features
@@ -9,13 +9,13 @@
 - **Product Type**: Non-Consumable In-App Purchase
 - **Product ID**: `wellbeing_log_premium`
 
-## 🎨 **NEW: Premium Badge Integration**
-The app now features **beautiful premium badges** throughout the user experience:
-- **Purchase View**: Large premium badge (180x180) for upgrade screen
-- **Settings View**: Medium badge (120x120) for premium users  
-- **Trial Preview**: Small badge (80x80) for trial users
-- **Professional Design**: Crown, heart logo, premium text, feature icons
-- **Visual Appeal**: Blue-to-purple gradient with shine effects
+## 📱 Core Functionality
+The app provides essential student wellbeing management features:
+- **Real-time Tracking**: Monitor student numbers across different rooms
+- **Student Management**: Comprehensive database with search and filtering
+- **CloudKit Sync**: Real-time synchronization across all devices
+- **Professional Reporting**: Detailed analytics and export capabilities
+- **Customizable Settings**: Tailored to institutional needs
 
 ## 📱 App Store Metadata
 
@@ -30,33 +30,31 @@ The app now features **beautiful premium badges** throughout the user experience
 
 ### Keywords
 ```
-student,wellbeing,attendance,education,school,teacher,cloudkit,sync,freemium,free trial,premium,student management,room tracking,statistics,reporting
+student,wellbeing,attendance,education,school,teacher,cloudkit,sync,student management,room tracking,statistics,reporting,educational,institution
 ```
 
 ### App Store Description
 ```
-🎓 Professional Student Wellbeing Management with CloudKit Sync
+Professional Student Wellbeing Management for Educational Institutions
 
-Start your 30-day FREE TRIAL today! No credit card required.
+Wellbeing Log is a comprehensive iOS application designed specifically for schools and educational institutions to track student wellbeing, attendance, and room management with real-time CloudKit synchronization.
 
-Wellbeing Log is the professional solution for educational institutions to track student wellbeing, attendance, and room management with real-time CloudKit synchronization across all devices.
-
-✨ KEY FEATURES:
+KEY FEATURES:
 • Real-time head counts for wellbeing, diverse learners, and lunch rooms
 • Comprehensive student tracking with custom entry/exit reasons
 • Advanced statistics and reporting for data-driven decisions
 • Secure CloudKit sync across iPhone, iPad, and Mac
 • Professional interface designed for educational use
 
-🆓 FREEMIUM MODEL:
+SIMPLE PRICING:
 • 30-day free trial with full access to all features
-• $9.99 one-time purchase for lifetime premium access
-• No recurring subscriptions or hidden fees
-• Beautiful premium badges and professional UI
+• One-time purchase of $9.99 for continued use after trial
+• No subscriptions or recurring fees
+• No external content or additional purchases
 
 Perfect for schools, counselors, and support staff who need reliable, professional tools for student wellbeing management.
 
-Download now and start your free trial today!
+Start your free trial today and experience professional student wellbeing management.
 ```
 
 ## 🖼️ Screenshots & App Preview
@@ -67,13 +65,13 @@ Download now and start your free trial today!
 3. **Student Entry** - Adding students to rooms
 4. **CloudKit Sync** - Sync interface demonstration
 5. **Statistics** - Comprehensive reporting
-6. **Settings with Subscription** - **NEW**: Professional subscription interface with premium badges
-7. **Trial Status** - **NEW**: Trial progress and upgrade options with premium preview
-8. **Purchase Flow** - **NEW**: Premium upgrade experience with large premium badge
+6. **Settings** - Professional settings interface
+7. **Trial Status** - Trial progress and upgrade options
+8. **Purchase Flow** - Premium upgrade experience
 
 ### App Preview Video (Optional)
 - **Duration**: 15-30 seconds
-- **Content**: Show trial experience, premium features, and premium badge integration
+- **Content**: Show trial experience and core features
 - **Focus**: Professional appearance and ease of use
 
 ## 🔧 Technical Requirements
@@ -113,13 +111,13 @@ PREMIUM FEATURES:
 - Premium is a one-time purchase of $9.99 with no recurring fees
 - Purchase restores across all user's devices
 
-PREMIUM BADGE INTEGRATION:
-- Beautiful premium badges are displayed throughout the app
-- Purchase view shows large premium badge for upgrade experience
-- Settings view displays premium status with appropriate badges
-- Trial users see preview badges of what they're upgrading to
+APP PURPOSE:
+- Designed for educational institutions to track student wellbeing
+- Helps teachers and staff manage student attendance and room assignments
+- Provides reporting and analytics for student services
+- Uses CloudKit for data synchronization across devices
 
-The app follows all App Store guidelines for freemium applications and provides a professional, educational experience for schools and institutions.
+The app follows all App Store guidelines for educational productivity applications and provides a professional experience for schools and institutions.
 ```
 
 ### Test Account (if required)

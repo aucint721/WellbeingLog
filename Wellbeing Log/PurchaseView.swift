@@ -8,18 +8,20 @@ struct PurchaseView: View {
     var body: some View {
         NavigationView {
             VStack(spacing: 30) {
-                // Header with Premium Badge
+                // Header
                 VStack(spacing: 20) {
-                    // Premium Badge
-                    PremiumBadgeView(size: 180)
+                    // Professional icon
+                    Image(systemName: "graduationcap.fill")
+                        .font(.system(size: 80))
+                        .foregroundColor(.blue)
                         .padding(.bottom, 10)
                     
-                    Text("Unlock Premium Features")
+                    Text("Upgrade to Premium")
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.center)
                     
-                    Text("Your 30-day free trial has ended. Upgrade to continue using all features.")
+                    Text("Your 30-day free trial has ended. Upgrade to continue using all features with a simple one-time purchase.")
                         .font(.body)
                         .foregroundColor(.secondary)
                         .multilineTextAlignment(.center)
@@ -28,7 +30,7 @@ struct PurchaseView: View {
                 
                 // Features list
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Premium Features:")
+                    Text("All Features Included:")
                         .font(.headline)
                         .fontWeight(.semibold)
                     
@@ -36,7 +38,8 @@ struct PurchaseView: View {
                     FeatureRow(icon: "chart.bar.fill", text: "Advanced statistics and reports")
                     FeatureRow(icon: "folder.fill", text: "Custom reason management")
                     FeatureRow(icon: "square.and.arrow.up", text: "Export and backup data")
-                    FeatureRow(icon: "icloud.fill", text: "Data persistence across devices")
+                    FeatureRow(icon: "icloud.fill", text: "CloudKit sync across devices")
+                    FeatureRow(icon: "graduationcap.fill", text: "Professional educational tools")
                 }
                 .padding(.horizontal)
                 
@@ -55,7 +58,7 @@ struct PurchaseView: View {
                                     .progressViewStyle(CircularProgressViewStyle(tint: .white))
                                     .scaleEffect(0.8)
                             } else {
-                                Text("Upgrade to Premium")
+                                Text("Purchase Premium - $9.99")
                                     .fontWeight(.semibold)
                             }
                         }
