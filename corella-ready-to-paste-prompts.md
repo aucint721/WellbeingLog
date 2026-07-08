@@ -11,8 +11,9 @@ Contents:
 - Metalwork — Term 1 (Sheet metal toolbox)
 - Digital Technologies — Term 1 (Interactive quiz)
 
-> Reminder: Corella only substitutes `{{variables}}` inside its saved/custom prompt
-> template tool, not in a normal chat. These filled-in versions avoid that problem.
+> Reminder: the `{{variable}}` versions are for Corella's prompt library — you select
+> the saved prompt and Tab through the placeholders to type real values before sending.
+> The filled-in versions below skip that step entirely: just copy, paste and send.
 
 ---
 

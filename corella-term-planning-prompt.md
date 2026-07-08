@@ -6,32 +6,37 @@ classes.
 
 ## IMPORTANT — how Corella handles the `{{variables}}`
 
-Corella does **not** automatically substitute `{{variable}}` placeholders when you
-paste a plain message into a normal chat. The `{{variable}}` syntax only works inside
-Corella's **saved / custom prompt template** feature, where it detects the placeholders
-and gives you a fill-in form before running.
+In Corella, the `{{variable}}` syntax works through the **prompt library**:
 
-So there are two ways to use this toolkit:
+1. Save the `{{variable}}` Master Prompt (below) to your Corella prompt library.
+2. Select it from the library — Corella opens the full text in the prompt space.
+3. The `{{words}}` become **tab-stops**. Press Tab to jump to each placeholder and type
+   the real value over it.
+4. Once every placeholder is filled in, send the prompt.
 
-- **Normal chat (most reliable):** use the fully filled-in prompt in the
-  "Ready-to-Paste" section below — it has real values, no braces. Just change the term
-  and project each time.
-- **Corella saved-prompt template:** paste the `{{variable}}` Master Prompt into
-  Corella's *custom prompt* tool so it produces the fill-in form. Do **not** paste the
-  variable version straight into an ordinary chat — Corella will see empty placeholders,
-  can't tell what the task is, and may stall without explanation.
+The `{{variable}}` version must be used this way. If you paste it straight into an
+ordinary chat message and send it with the placeholders *still unfilled*, Corella can't
+tell what the task is and may stall without explanation — that's what happened before.
 
-## How to use it (template version)
+Two ways to use this toolkit:
 
-1. Pick the **Value Block** for the subject you're planning (Woodwork, Metalwork, or
-   Digital Technologies) from the section below.
-2. Change `{{term}}` (and `{{part_number}}`, and `{{project_name}}` if the term's
-   project changes) to the term you're planning.
-3. Either paste it into Corella's saved-prompt template tool, **or** manually replace
-   each `{{...}}` with its value before pasting into a normal chat.
-4. To reuse next term: edit only `{{term}}`, `{{part_number}}`, and `{{project_name}}`.
-5. To reuse for a different subject: swap in that subject's Value Block — the prompt
-   body adapts itself.
+- **Prompt library (recommended):** save the `{{variable}}` Master Prompt below, then
+  tab through the placeholders each time, using the Value Blocks as your cheat-sheet for
+  what to type.
+- **Normal chat / copy-paste:** use the fully filled-in prompts in
+  `corella-ready-to-paste-prompts.md` (and the Ready-to-Paste section below) — real
+  values, no braces, nothing to fill in.
+
+## How to use the template version (prompt library)
+
+1. Save the **Master Prompt** below to your Corella prompt library.
+2. Pick the **Value Block** for the subject you're planning (Woodwork, Metalwork, or
+   Digital Technologies) — it lists what to type at each tab-stop.
+3. Select the saved prompt, then Tab through the `{{...}}` placeholders, typing each
+   value. Change `{{term}}`, `{{part_number}}`, and `{{project_name}}` for the term
+   you're planning.
+4. To reuse next term: change only the term, part number, and project name.
+5. To reuse for a different subject: use that subject's Value Block for the values.
 
 > Tip: Build the year one term at a time. Corella (like most AI) produces richer,
 > more coherent plans when focused on a single term. The prompt is written to enforce
