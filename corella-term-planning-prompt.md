@@ -4,13 +4,31 @@ A reusable prompt system for the Queensland Department of Education AI (Corella)
 generate detailed year / term / weekly / lesson plans for composite Technologies
 classes.
 
-## How to use it
+## IMPORTANT — how Corella handles the `{{variables}}`
+
+Corella does **not** automatically substitute `{{variable}}` placeholders when you
+paste a plain message into a normal chat. The `{{variable}}` syntax only works inside
+Corella's **saved / custom prompt template** feature, where it detects the placeholders
+and gives you a fill-in form before running.
+
+So there are two ways to use this toolkit:
+
+- **Normal chat (most reliable):** use the fully filled-in prompt in the
+  "Ready-to-Paste" section below — it has real values, no braces. Just change the term
+  and project each time.
+- **Corella saved-prompt template:** paste the `{{variable}}` Master Prompt into
+  Corella's *custom prompt* tool so it produces the fill-in form. Do **not** paste the
+  variable version straight into an ordinary chat — Corella will see empty placeholders,
+  can't tell what the task is, and may stall without explanation.
+
+## How to use it (template version)
 
 1. Pick the **Value Block** for the subject you're planning (Woodwork, Metalwork, or
    Digital Technologies) from the section below.
 2. Change `{{term}}` (and `{{part_number}}`, and `{{project_name}}` if the term's
    project changes) to the term you're planning.
-3. Paste the chosen Value Block **followed by** the Master Prompt into Corella.
+3. Either paste it into Corella's saved-prompt template tool, **or** manually replace
+   each `{{...}}` with its value before pasting into a normal chat.
 4. To reuse next term: edit only `{{term}}`, `{{part_number}}`, and `{{project_name}}`.
 5. To reuse for a different subject: swap in that subject's Value Block — the prompt
    body adapts itself.
@@ -18,6 +36,142 @@ classes.
 > Tip: Build the year one term at a time. Corella (like most AI) produces richer,
 > more coherent plans when focused on a single term. The prompt is written to enforce
 > this.
+
+---
+
+## Ready-to-Paste Prompt (Woodwork, Term 1 — no variables)
+
+Paste everything inside the box below directly into a normal Corella chat. Nothing needs
+filling in. For later terms, change "Term 1" → "Term 2", "Part 1" → "Part 2", and the
+project name (Toolbox → Serving/cutting board → Stool → Student-designed project).
+
+```text
+Role
+
+You are an expert Queensland Department of Education curriculum writer, experienced Head of Department for Design and Technologies, Master Teacher, and specialist in secondary Woodwork (Timber Technologies).
+
+Your task is to develop Term 1 only of a comprehensive annual teaching program for a composite Years 7–10 Woodwork class, where all year levels are taught together in the same workshop.
+
+This is Part 1 of a four-part annual program. Do not attempt to plan the entire year. Focus exclusively on creating the highest quality, most detailed, and practical Term 1 program possible. The completed program should be suitable for immediate implementation by a Queensland secondary teacher in a regional/remote Queensland school with a composite class.
+
+⸻
+
+Teaching Context
+
+Design the program around the following teaching context:
+
+Composite Years 7–10 Woodwork class taught together in one workshop.
+Students attend 2 lessons each week, each 70 minutes in duration.
+Assume a standard Queensland school term of approximately 10 teaching weeks.
+Plan for approximately 20 lessons per term.
+Allow flexibility for interruptions such as public holidays, school events, assessment weeks and student absences.
+Every lesson must include sufficient time for: lesson introduction, attendance, safety briefing, teacher demonstration, guided practice, independent practical work, cleanup, equipment return, and student reflection.
+Reserve approximately 10–15 minutes at the end of every lesson for cleaning the workshop, equipment return and pack-up.
+Lessons must be realistically achievable within 70 minutes without rushing students.
+Embed theory naturally throughout practical lessons wherever possible rather than teaching theory separately, except where explicit safety or design instruction is required.
+Sequence activities so that students can successfully complete the major project within the available teaching time, while allowing flexibility for students working at different rates.
+Include strategies to help absent students catch up without disrupting the flow of the class.
+
+⸻
+
+Curriculum Requirements
+
+Align the program with:
+
+Australian Curriculum Version 9.0
+Queensland Department of Education requirements
+Design and Technologies curriculum
+Queensland Work Health and Safety legislation where applicable
+Safe operation of hand tools, portable power tools and fixed woodworking machinery
+Industry best practice for Woodwork
+Universal Design for Learning (UDL)
+Explicit Teaching
+High Impact Teaching Strategies
+Positive Behaviour for Learning (PBL)
+Differentiated instruction
+Inclusive education practices
+Aboriginal and Torres Strait Islander Histories and Cultures where authentic and appropriate
+Sustainability where appropriate
+Ethical use of technology where applicable
+
+⸻
+
+Teaching Philosophy
+
+Design the entire term around a spiral curriculum.
+
+All students should generally work on the same project and skills simultaneously, with differentiation achieved through increasing levels of complexity rather than completely different projects.
+
+Differentiate through:
+project complexity, design expectations, accuracy, independence, craftsmanship, tool competency, machine competency, documentation, problem-solving, and assessment expectations.
+
+The aim is to maximise workshop efficiency while ensuring every student is appropriately challenged.
+
+⸻
+
+Program Requirements
+
+1. Term Overview
+
+Produce a detailed overview including: Unit title, Unit rationale, Duration, Big Ideas, Essential Questions, Learning Intentions, Success Criteria, Achievement Standards, Australian Curriculum Version 9 Content Descriptors (cited by code), General Capabilities, Cross-Curriculum Priorities, Required resources, Materials list, Equipment/machinery required, Safety requirements, Risk management considerations, and Assessment schedule.
+Explain the educational reasoning behind the unit design.
+
+2. Skills Progression
+
+Develop a logical progression of Timber Technologies knowledge and practical skills appropriate for Woodwork, including workshop expectations, PPE, and the safe use of hand tools, portable power tools and fixed woodworking machinery.
+Identify the specific competencies students should achieve during Term 1.
+
+3. Major Project
+
+Recommend one major woodworking project — the Toolbox — suitable for all Years 7–10.
+Explain: why the project is suitable, what skills it develops, estimated completion timeline, assessment opportunities, how it is differentiated for each year level, extension opportunities, common misconceptions, and likely student challenges.
+
+4. Weekly Teaching Program
+
+Develop a complete week-by-week teaching program for the entire term.
+For every teaching week, divide the week into the two actual lessons taught.
+
+Lesson 1 (70 minutes)
+Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome – 5 min, Safety briefing – 5 min, Demonstration – 10 min, Guided practice – 15 min, Independent practical work – 25 min, Reflection – 5 min, Cleanup – 5 min); Starter activity; Review of prior learning; Explicit instruction; Teacher modelling; Guided practice; Independent practice; Practical Woodwork learning activities; Literacy focus; Numeracy focus; Digital Technologies integration (where appropriate); Aboriginal and Torres Strait Islander perspectives (where authentic); Safety focus; Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket; and workshop cleanup routine.
+Cite the specific Australian Curriculum Version 9 content descriptor codes and achievement standard elements addressed in this lesson.
+
+Lesson 2 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+5. Lesson Design
+
+Each lesson should follow an Explicit Teaching model with realistic timings and be achievable within 70 minutes.
+
+6. Differentiation
+
+For every week's learning, explain practical, classroom-ready adjustments for: Year 7, Year 8, Year 9, Year 10, high-achieving students, students requiring additional learning support, students with literacy difficulties, EAL/D learners, and students requiring reasonable adjustments. Provide concrete strategies rather than general statements.
+
+7. Assessment
+
+Include: Diagnostic assessment; Formative assessment; Summative assessment opportunities (practical project and design folio); Teacher observation checklists; Practical competency checklists; Student self-assessment; Peer assessment; Evidence collection suggestions; Rubric recommendations; and Moderation notes.
+
+8. Behaviour and Workshop Management
+
+Develop consistent routines for: entering the workshop, attendance, PPE, equipment and resource distribution, teacher demonstrations, safe movement around hand tools, portable power tools and fixed woodworking machinery, safe operation of that equipment, safe behaviour, emergency procedures, expectations, cleanup, equipment return and storage, and end-of-lesson pack-up.
+
+9. Supporting Resources
+
+Recommend: printable worksheets, theory notes, safety posters, practical demonstrations, instructional videos, extension activities, intervention activities, homework (where appropriate), revision resources, and teacher checklists.
+
+⸻
+
+Output Requirements
+
+Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
+Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
+Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
+Do not abbreviate sections or provide summaries.
+Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
+
+Focus exclusively on Term 1. Do not begin planning the other terms.
+
+At the conclusion of the document, provide recommendations for improvements to the following term based on the intended progression of student knowledge, skills and competencies — but do not develop that term's program itself.
+```
 
 ---
 
