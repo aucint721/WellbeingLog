@@ -22,12 +22,14 @@ Woodwork
 - Term 1 — Toolbox
 - Term 2 — Serving / cutting board
 - Term 3 — Stool
+- Term 3 (this term) — Set of three mallets (small, medium, large)
 - Term 4 — Student-designed major project
 
 Metalwork
 - Term 1 — Sheet metal toolbox
 - Term 2 — Scriber / centre punch (lathe turning)
 - Term 3 — Welded frame project (plant stand / bracket)
+- Term 3 (this term) — Windbreak
 - Term 4 — Student-designed fabrication project
 
 Digital Technologies
@@ -433,6 +435,153 @@ Develop consistent routines for: entering the workshop, attendance, PPE, equipme
 9. Supporting Resources
 
 Recommend: printable worksheets, theory notes, safety posters, practical demonstrations, instructional videos, extension activities, intervention activities, homework (where appropriate), revision resources, and teacher checklists.
+
+⸻
+
+Output Requirements
+
+Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
+Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
+Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
+Do not abbreviate sections or provide summaries.
+Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
+
+Focus exclusively on Term 3. Do not begin planning the other terms.
+
+At the conclusion of the document, provide recommendations for improvements to Term 4 based on the intended progression of student knowledge, skills and competencies — but do not develop the Term 4 program itself.
+```
+
+---
+
+## Woodwork — Term 3 (this term) — Set of three mallets
+
+Unit focus: A matching set of three timber mallets — small, medium and large
+
+```text
+Role
+
+You are an expert Queensland Department of Education curriculum writer, experienced Head of Department for Design and Technologies, Master Teacher, and specialist in secondary Woodwork (Timber Technologies).
+
+Your task is to develop Term 3 only of a comprehensive annual teaching program for a composite Years 7–10 Woodwork class, where all year levels are taught together in the same workshop.
+
+This is Part 3 of a four-part annual program. Assume students have completed Term 1 (Toolbox) and Term 2 (Serving / Cutting Board) and can measure, mark out, saw, drill, join, glue up, shape, sand and finish timber with growing accuracy and independence. Do not attempt to plan the entire year. Focus exclusively on creating the highest quality, most detailed, and practical Term 3 program possible. The completed program should be suitable for immediate implementation by a Queensland secondary teacher in a regional/remote Queensland school with a composite class.
+
+⸻
+
+Teaching Context
+
+Design the program around the following teaching context:
+
+Composite Years 7–10 Woodwork class taught together in one workshop.
+Students attend 2 lessons each week, each 70 minutes in duration.
+Assume a standard Queensland school term of approximately 10 teaching weeks.
+Plan for approximately 20 lessons per term.
+Allow flexibility for interruptions such as public holidays, school events, assessment weeks and student absences.
+Every lesson must include sufficient time for: lesson introduction, attendance, safety briefing, teacher demonstration, guided practice, independent practical work, cleanup, equipment return, and student reflection.
+Reserve approximately 10–15 minutes at the end of every lesson for cleaning the workshop, equipment return and pack-up.
+Lessons must be realistically achievable within 70 minutes without rushing students.
+Embed theory naturally throughout practical lessons wherever possible rather than teaching theory separately, except where explicit safety or design instruction is required.
+Sequence activities so that students can successfully complete the major project within the available teaching time, while allowing flexibility for students working at different rates.
+Include strategies to help absent students catch up without disrupting the flow of the class.
+Build deliberately on the skills established in Terms 1 and 2, increasing expectations for accuracy, consistency across a set of products, independence and documentation.
+
+⸻
+
+Curriculum Requirements
+
+Align the program with:
+
+Australian Curriculum Version 9.0
+Queensland Department of Education requirements
+Design and Technologies curriculum
+Queensland Work Health and Safety legislation where applicable
+Safe operation of hand tools, portable power tools and fixed woodworking machinery
+Industry best practice for Woodwork
+Universal Design for Learning (UDL)
+Explicit Teaching
+High Impact Teaching Strategies
+Positive Behaviour for Learning (PBL)
+Differentiated instruction
+Inclusive education practices
+Aboriginal and Torres Strait Islander Histories and Cultures where authentic and appropriate
+Sustainability where appropriate
+Ethical use of technology where applicable
+
+⸻
+
+Teaching Philosophy
+
+Design the entire term around a spiral curriculum.
+
+All students should generally work on the same project and skills simultaneously, with differentiation achieved through increasing levels of complexity rather than completely different projects.
+
+Differentiate through:
+project complexity, design expectations, accuracy, independence, craftsmanship, tool competency, machine competency, documentation, problem-solving, and assessment expectations.
+
+The aim is to maximise workshop efficiency while ensuring every student is appropriately challenged.
+
+⸻
+
+Program Requirements
+
+1. Term Overview
+
+Produce a detailed overview including: Unit title, Unit rationale, Duration, Big Ideas, Essential Questions, Learning Intentions, Success Criteria, Achievement Standards, Australian Curriculum Version 9 Content Descriptors (cited by code), General Capabilities, Cross-Curriculum Priorities, Required resources, Materials list, Equipment/machinery required, Safety requirements, Risk management considerations, and Assessment schedule.
+Explain the educational reasoning behind the unit design.
+
+2. Skills Progression
+
+Develop a logical progression of Timber Technologies knowledge and practical skills appropriate for Woodwork, building on Terms 1 and 2 and focusing on: reading and producing working drawings for a set of related products; accurate measuring and marking out to size; cutting and shaping mallet heads and handles; drilling and fitting handles; producing consistent proportions across three sizes; sanding and finishing for durability and safe use; and quality control when making a matching set.
+Include workshop expectations, PPE, and the safe use of hand tools, portable power tools and fixed woodworking machinery.
+Identify the specific competencies students should achieve during Term 3.
+
+3. Major Project
+
+The major project for Term 3 is a set of three timber mallets — small, medium and large — suitable for all Years 7–10.
+Explain:
+why a matching set of three mallets is suitable for a composite class
+what skills it develops, including accuracy, proportion, repetition and quality control
+recommended approximate dimensions for small, medium and large mallets (with Year 7–10 differentiation)
+estimated completion timeline across approximately 20 lessons
+assessment opportunities
+how the project is differentiated for each year level (for example Year 7 completes a simpler set with basic handle fitting and finish; Year 8 improves accuracy and consistency; Year 9 refines shaping, fit and finish; Year 10 produces a fully matched set to specification with refined proportions, superior finish and detailed documentation)
+extension opportunities (for example a fourth size, decorative shaping, branded handles, or a storage rack for the set)
+common misconceptions
+likely student challenges when making three related products rather than one
+
+4. Weekly Teaching Program
+
+Develop a complete week-by-week teaching program for the entire term.
+For every teaching week, divide the week into the two actual lessons taught.
+
+Lesson 1 (70 minutes)
+Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome – 5 min, Safety briefing – 5 min, Demonstration – 10 min, Guided practice – 15 min, Independent practical work – 25 min, Reflection – 5 min, Cleanup – 5 min); Starter activity; Review of prior learning; Explicit instruction; Teacher modelling; Guided practice; Independent practice; Practical Woodwork learning activities; Literacy focus; Numeracy focus (including scaling sizes and checking proportions across the set); Digital Technologies integration (where appropriate); Aboriginal and Torres Strait Islander perspectives (where authentic); Safety focus; Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket; and workshop cleanup routine.
+Cite the specific Australian Curriculum Version 9 content descriptor codes and achievement standard elements addressed in this lesson.
+
+Lesson 2 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+5. Lesson Design
+
+Each lesson should follow an Explicit Teaching model with realistic timings and be achievable within 70 minutes.
+Sequence the term so students typically complete one mallet at a time (or batch similar processes across sizes) in a way that builds accuracy and allows catch-up without leaving unfinished work stranded.
+
+6. Differentiation
+
+For every week's learning, explain practical, classroom-ready adjustments for: Year 7, Year 8, Year 9, Year 10, high-achieving students, students requiring additional learning support, students with literacy difficulties, EAL/D learners, and students requiring reasonable adjustments. Provide concrete strategies rather than general statements.
+Include practical advice for students who may only complete one or two mallets within the term while still meeting learning intentions.
+
+7. Assessment
+
+Include: Diagnostic assessment; Formative assessment; Summative assessment opportunities (practical project and design folio); Teacher observation checklists; Practical competency checklists; Student self-assessment; Peer assessment; Evidence collection suggestions; Rubric recommendations that assess both individual craftsmanship and consistency across the set; and Moderation notes.
+
+8. Behaviour and Workshop Management
+
+Develop consistent routines for: entering the workshop, attendance, PPE, equipment and resource distribution, teacher demonstrations, safe movement around hand tools, portable power tools and fixed woodworking machinery, safe operation of that equipment, safe behaviour, emergency procedures, expectations, cleanup, equipment return and storage, and end-of-lesson pack-up.
+
+9. Supporting Resources
+
+Recommend: printable worksheets, dimension charts for the three mallet sizes, cutting lists, theory notes, safety posters, practical demonstrations, instructional videos, extension activities, intervention activities, homework (where appropriate), revision resources, and teacher checklists.
 
 ⸻
 
@@ -964,6 +1113,152 @@ Develop consistent routines for: entering the workshop, attendance, PPE, equipme
 9. Supporting Resources
 
 Recommend: printable worksheets, theory notes, safety posters, practical demonstrations, instructional videos, extension activities, intervention activities, homework (where appropriate), revision resources, and teacher checklists. Where relevant, reference CAD software.
+
+⸻
+
+Output Requirements
+
+Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
+Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
+Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
+Do not abbreviate sections or provide summaries.
+Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
+
+Focus exclusively on Term 3. Do not begin planning the other terms.
+
+At the conclusion of the document, provide recommendations for improvements to Term 4 based on the intended progression of student knowledge, skills and competencies — but do not develop the Term 4 program itself.
+```
+
+---
+
+## Metalwork — Term 3 (this term) — Windbreak
+
+Unit focus: A welded metal windbreak suitable for outdoor use
+
+```text
+Role
+
+You are an expert Queensland Department of Education curriculum writer, experienced Head of Department for Design and Technologies, Master Teacher, and specialist in secondary Metalwork (Metal Technologies).
+
+Your task is to develop Term 3 only of a comprehensive annual teaching program for a composite Years 7–10 Metalwork class, where all year levels are taught together in the same workshop.
+
+This is Part 3 of a four-part annual program. Assume students have completed Term 1 (Sheet Metal Toolbox) and Term 2 (Scriber / Centre Punch on the lathe), and can mark out, cut, fold, drill, file, turn and heat-treat metal with growing accuracy and independence. Do not attempt to plan the entire year. Focus exclusively on creating the highest quality, most detailed, and practical Term 3 program possible. The completed program should be suitable for immediate implementation by a Queensland secondary teacher in a regional/remote Queensland school with a composite class.
+
+⸻
+
+Teaching Context
+
+Design the program around the following teaching context:
+
+Composite Years 7–10 Metalwork class taught together in one workshop.
+Students attend 2 lessons each week, each 70 minutes in duration.
+Assume a standard Queensland school term of approximately 10 teaching weeks.
+Plan for approximately 20 lessons per term.
+Allow flexibility for interruptions such as public holidays, school events, assessment weeks and student absences.
+Every lesson must include sufficient time for: lesson introduction, attendance, safety briefing, teacher demonstration, guided practice, independent practical work, cleanup, equipment return, and student reflection.
+Reserve approximately 10–15 minutes at the end of every lesson for cleaning the workshop, equipment return and pack-up.
+Lessons must be realistically achievable within 70 minutes without rushing students.
+Embed theory naturally throughout practical lessons wherever possible rather than teaching theory separately, except where explicit safety or design instruction is required.
+Sequence activities so that students can successfully complete the major project within the available teaching time, while allowing flexibility for students working at different rates.
+Include strategies to help absent students catch up without disrupting the flow of the class.
+Build deliberately on the skills established in Terms 1 and 2, increasing expectations for fabrication accuracy, weld quality, structural soundness, independence and documentation.
+
+⸻
+
+Curriculum Requirements
+
+Align the program with:
+
+Australian Curriculum Version 9.0
+Queensland Department of Education requirements
+Design and Technologies curriculum
+Queensland Work Health and Safety legislation where applicable, including hot work and welding procedures
+Safe operation of hand tools, welders, grinders, folders/shears and fixed metalworking machinery
+Industry best practice for Metalwork
+Universal Design for Learning (UDL)
+Explicit Teaching
+High Impact Teaching Strategies
+Positive Behaviour for Learning (PBL)
+Differentiated instruction
+Inclusive education practices
+Aboriginal and Torres Strait Islander Histories and Cultures where authentic and appropriate
+Sustainability where appropriate
+Ethical use of technology where applicable
+
+⸻
+
+Teaching Philosophy
+
+Design the entire term around a spiral curriculum.
+
+All students should generally work on the same project and skills simultaneously, with differentiation achieved through increasing levels of complexity rather than completely different projects.
+
+Differentiate through:
+project complexity, design expectations, accuracy, independence, craftsmanship, tool competency, machine competency, documentation, problem-solving, and assessment expectations.
+
+The aim is to maximise workshop efficiency while ensuring every student is appropriately challenged.
+
+⸻
+
+Program Requirements
+
+1. Term Overview
+
+Produce a detailed overview including: Unit title, Unit rationale, Duration, Big Ideas, Essential Questions, Learning Intentions, Success Criteria, Achievement Standards, Australian Curriculum Version 9 Content Descriptors (cited by code), General Capabilities, Cross-Curriculum Priorities, Required resources, Materials list, Equipment/machinery required, Safety requirements, Risk management considerations, and Assessment schedule.
+Explain the educational reasoning behind the unit design, including why a windbreak is an authentic outdoor fabrication project for a composite Years 7–10 Metalwork class.
+
+2. Skills Progression
+
+Develop a logical progression of Metal Technologies knowledge and practical skills appropriate for Metalwork, building on Terms 1 and 2 and introducing: reading and producing working drawings for a framed outdoor structure; measuring and cutting mild steel (or available stock) to length; joint preparation; use of jigs and clamps; welding (MIG and/or arc as available); bracing and squaring a frame; weld cleaning and grinding; drilling and fastening where required; surface preparation and outdoor finishing (paint, primer or galvanising-compatible finish as available); and safe structural fabrication.
+Include workshop expectations, PPE, and the safe use of hand tools, welders, grinders, folders/shears and fixed metalworking machinery.
+Identify the specific competencies students should achieve during Term 3.
+
+3. Major Project
+
+The major project for Term 3 is a Windbreak — a welded metal frame with panels or screening suitable for outdoor use — suitable for all Years 7–10.
+Explain:
+why a windbreak is suitable for a composite class
+what skills it develops, including structural fabrication, welding, bracing, finishing and design for outdoor conditions
+recommended approximate overall dimensions and construction approach that can realistically be completed in approximately 20 lessons of 70 minutes
+assessment opportunities
+how the project is differentiated for each year level (for example Year 7 completes a simpler smaller panel or section with basic tack welds and teacher-supported assembly; Year 8 produces a square frame with improved weld quality; Year 9 adds bracing, improved finish and more independence; Year 10 produces a fully welded, braced and finished windbreak to specification with refined joints, superior finish and detailed documentation of design decisions)
+extension opportunities (for example decorative panel inserts, hinged sections, mounting feet, nameplate, or CAD drawings)
+common misconceptions
+likely student challenges (including warping, out-of-square frames, inconsistent weld quality, and finishing for outdoor durability)
+
+4. Weekly Teaching Program
+
+Develop a complete week-by-week teaching program for the entire term.
+For every teaching week, divide the week into the two actual lessons taught.
+
+Lesson 1 (70 minutes)
+Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome – 5 min, Safety briefing – 5 min, Demonstration – 10 min, Guided practice – 15 min, Independent practical work – 25 min, Reflection – 5 min, Cleanup – 5 min); Starter activity; Review of prior learning; Explicit instruction; Teacher modelling; Guided practice; Independent practice; Practical Metalwork learning activities; Literacy focus; Numeracy focus (including measuring, squaring and checking diagonals); Digital Technologies integration (where appropriate, including CAD software where available); Aboriginal and Torres Strait Islander perspectives (where authentic); Safety focus (especially hot work, welding, grinding and outdoor installation considerations); Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket; and workshop cleanup routine.
+Cite the specific Australian Curriculum Version 9 content descriptor codes and achievement standard elements addressed in this lesson.
+
+Lesson 2 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+5. Lesson Design
+
+Each lesson should follow an Explicit Teaching model with realistic timings and be achievable within 70 minutes.
+Sequence the term so design and marking out come first, then cutting and preparation, then welding and assembly, then finishing — allowing students working at different rates to progress safely without bottlenecks at the welder.
+
+6. Differentiation
+
+For every week's learning, explain practical, classroom-ready adjustments for: Year 7, Year 8, Year 9, Year 10, high-achieving students, students requiring additional learning support, students with literacy difficulties, EAL/D learners, and students requiring reasonable adjustments. Provide concrete strategies rather than general statements.
+Include practical advice for managing welding access, jigs, and shared machinery in a composite class.
+
+7. Assessment
+
+Include: Diagnostic assessment; Formative assessment; Summative assessment opportunities (practical fabrication project and design folio); Teacher observation checklists; Practical competency checklists (especially welding and safe hot work); Student self-assessment; Peer assessment; Evidence collection suggestions; Rubric recommendations that assess structural soundness, weld quality, accuracy, finish and documentation; and Moderation notes.
+
+8. Behaviour and Workshop Management
+
+Develop consistent routines for: entering the workshop, attendance, PPE, equipment and resource distribution, teacher demonstrations, safe movement around hand tools, welders, grinders, folders/shears and fixed metalworking machinery, safe operation of that equipment, hot work and welding procedures, safe behaviour, emergency procedures, expectations, cleanup, equipment return and storage, and end-of-lesson pack-up.
+
+9. Supporting Resources
+
+Recommend: printable worksheets, cutting lists, welding procedure notes, safety posters, practical demonstrations, instructional videos, extension activities, intervention activities, homework (where appropriate), revision resources, and teacher checklists. Where relevant, reference CAD software.
 
 ⸻
 
