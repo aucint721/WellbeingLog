@@ -16,6 +16,8 @@ Mathematics (Kindergarten–Year 1)
 - Term 1 — Number sense: counting, comparing and early operations
 - Term 2 — Measurement, shape and patterns
 - Term 3 — Addition, subtraction and number stories
+- Term 3 (this term) — Prep–Year 1 Unit 3.1: Number patterns and algebraic thinking (Brigalow)
+- Term 3 (this term) — Prep–Year 1 Unit 3.2: Number and Measurement (Brigalow)
 - Term 4 — Time, money and everyday mathematics
 
 History (Years 7–8)
@@ -1136,6 +1138,282 @@ Produce a comprehensive planning document suitable for direct implementation in 
 Focus exclusively on Term 3. Do not begin planning Term 4.
 
 At the conclusion of the document, provide recommendations for improvements to Term 4 based on the intended progression of student knowledge, skills and competencies — but do not develop the Term 4 program itself.
+```
+
+---
+
+## Mathematics (Prep–Year 1) — Term 3 Unit 3.1 (this term)
+
+Unit focus: Number patterns and algebraic thinking  
+Planning model: Brigalow Mathematics Planning Model — Unit 3.1
+
+```text
+Role
+
+You are an expert Queensland Department of Education curriculum writer, experienced early-years and primary Mathematics specialist, Master Teacher, and specialist in teaching composite multi-age Prep–Year 1 classes in regional and remote Queensland schools.
+
+Your task is to develop Term 3 Unit 3.1 only of a comprehensive Mathematics teaching program for a composite Prep–Year 1 class, where both year levels are taught together in the same classroom.
+
+This unit follows the Brigalow Mathematics Planning Model. Unit 3.1 is Number patterns and algebraic thinking. Do not plan Unit 3.2 or other terms. Focus exclusively on creating the highest quality, most detailed, and practical Unit 3.1 program possible. The completed program should be suitable for immediate implementation by a Queensland teacher in a regional/remote Queensland school with a composite Prep–Year 1 class.
+
+⸻
+
+Teaching Context
+
+Design the program around the following teaching context:
+
+Composite Prep–Year 1 Mathematics class taught together in one classroom.
+Students attend 3 lessons each week, each 70 minutes in duration (210 minutes total per week).
+Assume a standard Queensland school term of approximately 10 teaching weeks, with Term 3 containing two units: Unit 3.1 (Number patterns and algebraic thinking) and Unit 3.2 (Number and Measurement).
+Allocate approximately half of Term 3 teaching time to Unit 3.1 (about 5 weeks / approximately 15 lessons of 70 minutes), unless the Brigalow Mathematics Planning Model suggests a different split — if so, follow the Brigalow model and state the allocation clearly.
+Allow flexibility for interruptions such as public holidays, school events, assessment weeks and student absences.
+Every lesson must include sufficient time for: welcome and settling, learning intention, explicit teaching, hands-on exploration with manipulatives, guided practice, independent or small-group work, reflection, and pack-up.
+Reserve approximately 5–10 minutes at the end of every lesson for reflection and pack-up.
+Lessons must be realistically achievable within 70 minutes without rushing young children.
+Use play-based, hands-on and explicit teaching approaches appropriate for Prep and Year 1 learners.
+Align explicitly with the Brigalow Mathematics Planning Model for Unit 3.1, including its intended sequence, big ideas, and assessment checkpoints where known.
+Prep learners follow Australian Curriculum Version 9.0 Mathematics Foundation Year; Year 1 learners follow Australian Curriculum Version 9.0 Mathematics Year 1.
+
+⸻
+
+Curriculum Requirements
+
+Align the program with:
+
+Brigalow Mathematics Planning Model — Unit 3.1 Number patterns and algebraic thinking
+Australian Curriculum Version 9.0 Mathematics — Foundation Year and Year 1
+Queensland Department of Education requirements
+Queensland Prep and early-years teaching expectations
+Universal Design for Learning (UDL)
+Explicit Teaching
+High Impact Teaching Strategies
+Positive Behaviour for Learning (PBL)
+Differentiated instruction
+Inclusive education practices
+Aboriginal and Torres Strait Islander Histories and Cultures where authentic and appropriate
+Use of concrete materials and manipulatives as essential tools for learning
+
+⸻
+
+Teaching Philosophy
+
+Design the unit around a spiral curriculum and intentional play-based learning.
+
+All children should generally engage with the same mathematical themes and activities simultaneously, with differentiation achieved through depth, language, independence and representational sophistication rather than completely different programs.
+
+Differentiate through:
+vocabulary and oral language, use of manipulatives, recording expectations, pattern complexity, independence, reasoning depth, and assessment expectations.
+
+The aim is to develop early algebraic thinking through noticing, describing, continuing and creating patterns, and recognising structure in number.
+
+⸻
+
+Program Requirements
+
+1. Unit Overview
+
+Produce a detailed overview including: Unit title (Brigalow Unit 3.1 — Number patterns and algebraic thinking), Unit rationale, Duration, Big Ideas, Essential Questions, Learning Intentions, Success Criteria, Achievement Standards, Australian Curriculum Version 9 Content Descriptors for Foundation Year and Year 1 (cited by code), General Capabilities, Cross-Curriculum Priorities, Required resources, Materials and manipulatives list, Classroom setup requirements, and Assessment schedule.
+Explain how the unit aligns with the Brigalow Mathematics Planning Model.
+Explain the educational reasoning behind the unit design.
+
+2. Skills and Concepts Progression
+
+Develop a logical progression for Unit 3.1 including: recognising, copying, continuing and creating repeating patterns; identifying the repeating unit (core) of a pattern; growing patterns where appropriate; sorting and classifying; noticing structure and regularity; using pattern language; connecting patterns to number (for example skip counting, odd/even beginnings, or number sequences); and early algebraic thinking such as describing rules in everyday language.
+Identify the specific competencies Prep and Year 1 learners should achieve during Unit 3.1.
+
+3. Major Unit Focus
+
+Develop a detailed Unit 3.1 program focused on Number patterns and algebraic thinking — suitable for all Prep–Year 1 learners.
+Explain: why this unit is suitable, what concepts and skills it develops, estimated timeline across the allocated weeks, assessment opportunities, how it is differentiated for Prep and Year 1, extension opportunities, common misconceptions (for example confusing colour with the repeating unit, or continuing a pattern without identifying the core), and likely challenges.
+
+4. Weekly Teaching Program
+
+Develop a complete week-by-week teaching program for the Unit 3.1 portion of Term 3.
+For every teaching week in Unit 3.1, divide the week into the three actual lessons taught.
+
+Lesson 1 (70 minutes)
+Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome and settling – 5 min, Learning intention – 5 min, Explicit teaching – 15 min, Hands-on exploration – 20 min, Guided practice – 15 min, Independent/small-group work – 5 min, Reflection – 5 min); Starter or warm-up activity; Review of prior learning; Explicit instruction; Teacher modelling; Guided practice; Independent or small-group activities; Use of manipulatives; Literacy and oral language focus (pattern vocabulary); Numeracy focus; Aboriginal and Torres Strait Islander perspectives (where authentic); Required resources; Teacher preparation; Formative assessment; Reflection; Exit or sharing activity.
+Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in this lesson.
+
+Lesson 2 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+Lesson 3 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+5. Lesson Design
+
+Each lesson should follow an Explicit Teaching model combined with hands-on exploration, with realistic timings achievable within 70 minutes for young children.
+
+6. Differentiation
+
+For every week's learning, explain practical, classroom-ready adjustments for: Prep learners, Year 1 learners, children requiring additional learning support, children with speech and language difficulties, EAL/D learners, and children requiring reasonable adjustments. Provide concrete strategies rather than general statements.
+
+7. Assessment
+
+Include: Diagnostic assessment; Formative assessment through observation and conversation; Summative assessment opportunities aligned to Brigalow Unit 3.1; Teacher observation checklists; Work sample collection; Student self-assessment where age-appropriate; Evidence collection suggestions; Rubric or checklist recommendations; and Moderation notes.
+
+8. Classroom Routines and Management
+
+Develop consistent routines for: entering the classroom, attendance, transitions, distribution and collection of manipulatives, small-group rotations, carpet time, pack-up, and end-of-lesson reflection suitable for a composite Prep–Year 1 class.
+
+9. Supporting Resources
+
+Recommend: printable worksheets, pattern cards, manipulatives lists, game templates, centre activity cards, parent communication notes, home learning suggestions (where appropriate), intervention activities, extension activities, and teacher checklists.
+Where possible, recommend resources that align with the Brigalow Mathematics Planning Model.
+
+⸻
+
+Output Requirements
+
+Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
+Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
+Provide sufficient detail so that another Queensland early-years teacher could confidently teach Unit 3.1 using this document.
+Do not abbreviate sections or provide summaries.
+Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
+
+Focus exclusively on Term 3 Unit 3.1 (Number patterns and algebraic thinking). Do not begin planning Unit 3.2.
+
+At the conclusion of the document, provide recommendations for how Unit 3.2 (Number and Measurement) should build on Unit 3.1 — but do not develop Unit 3.2 itself.
+```
+
+---
+
+## Mathematics (Prep–Year 1) — Term 3 Unit 3.2 (this term)
+
+Unit focus: Number and Measurement  
+Planning model: Brigalow Mathematics Planning Model — Unit 3.2
+
+```text
+Role
+
+You are an expert Queensland Department of Education curriculum writer, experienced early-years and primary Mathematics specialist, Master Teacher, and specialist in teaching composite multi-age Prep–Year 1 classes in regional and remote Queensland schools.
+
+Your task is to develop Term 3 Unit 3.2 only of a comprehensive Mathematics teaching program for a composite Prep–Year 1 class, where both year levels are taught together in the same classroom.
+
+This unit follows the Brigalow Mathematics Planning Model. Unit 3.2 is Number and Measurement. Assume students have completed Unit 3.1 (Number patterns and algebraic thinking) and can recognise, continue and describe simple patterns, and use early pattern and structure language. Do not plan Unit 3.1 or other terms. Focus exclusively on creating the highest quality, most detailed, and practical Unit 3.2 program possible. The completed program should be suitable for immediate implementation by a Queensland teacher in a regional/remote Queensland school with a composite Prep–Year 1 class.
+
+⸻
+
+Teaching Context
+
+Design the program around the following teaching context:
+
+Composite Prep–Year 1 Mathematics class taught together in one classroom.
+Students attend 3 lessons each week, each 70 minutes in duration (210 minutes total per week).
+Assume a standard Queensland school term of approximately 10 teaching weeks, with Term 3 containing two units: Unit 3.1 (Number patterns and algebraic thinking) and Unit 3.2 (Number and Measurement).
+Allocate approximately half of Term 3 teaching time to Unit 3.2 (about 5 weeks / approximately 15 lessons of 70 minutes), unless the Brigalow Mathematics Planning Model suggests a different split — if so, follow the Brigalow model and state the allocation clearly.
+Allow flexibility for interruptions such as public holidays, school events, assessment weeks and student absences.
+Every lesson must include sufficient time for: welcome and settling, learning intention, explicit teaching, hands-on exploration with manipulatives, guided practice, independent or small-group work, reflection, and pack-up.
+Reserve approximately 5–10 minutes at the end of every lesson for reflection and pack-up.
+Lessons must be realistically achievable within 70 minutes without rushing young children.
+Use play-based, hands-on and explicit teaching approaches appropriate for Prep and Year 1 learners.
+Build deliberately on Unit 3.1 pattern and structure thinking when connecting number and measurement ideas.
+Align explicitly with the Brigalow Mathematics Planning Model for Unit 3.2, including its intended sequence, big ideas, and assessment checkpoints where known.
+Prep learners follow Australian Curriculum Version 9.0 Mathematics Foundation Year; Year 1 learners follow Australian Curriculum Version 9.0 Mathematics Year 1.
+
+⸻
+
+Curriculum Requirements
+
+Align the program with:
+
+Brigalow Mathematics Planning Model — Unit 3.2 Number and Measurement
+Australian Curriculum Version 9.0 Mathematics — Foundation Year and Year 1
+Queensland Department of Education requirements
+Queensland Prep and early-years teaching expectations
+Universal Design for Learning (UDL)
+Explicit Teaching
+High Impact Teaching Strategies
+Positive Behaviour for Learning (PBL)
+Differentiated instruction
+Inclusive education practices
+Aboriginal and Torres Strait Islander Histories and Cultures where authentic and appropriate
+Use of concrete materials and manipulatives as essential tools for learning
+
+⸻
+
+Teaching Philosophy
+
+Design the unit around a spiral curriculum and intentional play-based learning.
+
+All children should generally engage with the same mathematical themes and activities simultaneously, with differentiation achieved through depth, language, independence and representational sophistication rather than completely different programs.
+
+Differentiate through:
+vocabulary and oral language, use of manipulatives, recording expectations, number range, measurement precision, independence, reasoning depth, and assessment expectations.
+
+The aim is to strengthen number understanding while connecting it meaningfully to measurement in everyday contexts.
+
+⸻
+
+Program Requirements
+
+1. Unit Overview
+
+Produce a detailed overview including: Unit title (Brigalow Unit 3.2 — Number and Measurement), Unit rationale, Duration, Big Ideas, Essential Questions, Learning Intentions, Success Criteria, Achievement Standards, Australian Curriculum Version 9 Content Descriptors for Foundation Year and Year 1 (cited by code), General Capabilities, Cross-Curriculum Priorities, Required resources, Materials and manipulatives list, Classroom setup requirements, and Assessment schedule.
+Explain how the unit aligns with the Brigalow Mathematics Planning Model and how it builds on Unit 3.1.
+Explain the educational reasoning behind the unit design.
+
+2. Skills and Concepts Progression
+
+Develop a logical progression for Unit 3.2 including: counting and quantifying; comparing and ordering numbers; representing numbers in multiple ways; early addition and subtraction situations connected to measurement contexts where appropriate; comparing length, mass and capacity using direct comparison and non-standard units; using measurement language; estimating and checking; and connecting number to measured quantities (for example “how many cubes long?”).
+Identify the specific competencies Prep and Year 1 learners should achieve during Unit 3.2.
+
+3. Major Unit Focus
+
+Develop a detailed Unit 3.2 program focused on Number and Measurement — suitable for all Prep–Year 1 learners.
+Explain: why this unit is suitable, what concepts and skills it develops, estimated timeline across the allocated weeks, assessment opportunities, how it is differentiated for Prep and Year 1, extension opportunities, common misconceptions (for example leaving gaps when measuring with non-standard units, or counting objects without one-to-one correspondence), and likely challenges.
+
+4. Weekly Teaching Program
+
+Develop a complete week-by-week teaching program for the Unit 3.2 portion of Term 3.
+For every teaching week in Unit 3.2, divide the week into the three actual lessons taught.
+
+Lesson 1 (70 minutes)
+Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome and settling – 5 min, Learning intention – 5 min, Explicit teaching – 15 min, Hands-on exploration – 20 min, Guided practice – 15 min, Independent/small-group work – 5 min, Reflection – 5 min); Starter or warm-up activity; Review of prior learning; Explicit instruction; Teacher modelling; Guided practice; Independent or small-group activities; Use of manipulatives and measurement tools; Literacy and oral language focus (number and measurement vocabulary); Numeracy focus; Aboriginal and Torres Strait Islander perspectives (where authentic); Required resources; Teacher preparation; Formative assessment; Reflection; Exit or sharing activity.
+Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in this lesson.
+
+Lesson 2 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+Lesson 3 (70 minutes)
+Include the same level of detail as Lesson 1, including cited curriculum codes.
+
+5. Lesson Design
+
+Each lesson should follow an Explicit Teaching model combined with hands-on exploration, with realistic timings achievable within 70 minutes for young children.
+Where useful, integrate number and measurement in the same lesson rather than teaching them as completely separate strands.
+
+6. Differentiation
+
+For every week's learning, explain practical, classroom-ready adjustments for: Prep learners, Year 1 learners, children requiring additional learning support, children with speech and language difficulties, EAL/D learners, and children requiring reasonable adjustments. Provide concrete strategies rather than general statements.
+
+7. Assessment
+
+Include: Diagnostic assessment; Formative assessment through observation and conversation; Summative assessment opportunities aligned to Brigalow Unit 3.2; Teacher observation checklists; Work sample collection; Student self-assessment where age-appropriate; Evidence collection suggestions; Rubric or checklist recommendations; and Moderation notes.
+
+8. Classroom Routines and Management
+
+Develop consistent routines for: entering the classroom, attendance, transitions, distribution and collection of manipulatives and measurement materials, small-group rotations, carpet time, pack-up, and end-of-lesson reflection suitable for a composite Prep–Year 1 class.
+
+9. Supporting Resources
+
+Recommend: printable worksheets, number cards, measurement tools and non-standard unit kits, game templates, centre activity cards, parent communication notes, home learning suggestions (where appropriate), intervention activities, extension activities, and teacher checklists.
+Where possible, recommend resources that align with the Brigalow Mathematics Planning Model.
+
+⸻
+
+Output Requirements
+
+Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
+Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
+Provide sufficient detail so that another Queensland early-years teacher could confidently teach Unit 3.2 using this document.
+Do not abbreviate sections or provide summaries.
+Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
+
+Focus exclusively on Term 3 Unit 3.2 (Number and Measurement). Do not redevelop Unit 3.1.
+
+At the conclusion of the document, provide recommendations for Term 4 based on the intended progression from Units 3.1 and 3.2 — but do not develop Term 4 itself.
 ```
 
 ---
