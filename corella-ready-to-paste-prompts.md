@@ -5,6 +5,11 @@ Every prompt below is fully written out with real words — nothing to edit. Sav
 as its own prompt in your Corella library (one per subject and term), or just copy a box
 and paste it straight into a chat and send.
 
+**Important:** These prompts now explicitly require a FULL unit plan with EVERY lesson
+written out in detail, including lesson content, Ploughback, I Do, We Do and You Do.
+If Corella stops early, reply: "Continue with Part 2 — write the remaining weeks and
+lessons in full with Ploughback, I Do, We Do and You Do for every lesson."
+
 ## How to use
 
 1. Find the subject and term you're planning below.
@@ -172,12 +177,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 1. Do not begin planning the other terms.
@@ -305,12 +353,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 2. Do not begin planning the other terms.
@@ -438,12 +529,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning the other terms.
@@ -585,12 +719,55 @@ Recommend: printable worksheets, dimension charts for the three mallet sizes, cu
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning the other terms.
@@ -718,12 +895,55 @@ Recommend: printable worksheets, design folio templates, theory notes, safety po
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 4. Do not begin planning other years.
@@ -850,12 +1070,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 1. Do not begin planning the other terms.
@@ -983,12 +1246,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 2. Do not begin planning the other terms.
@@ -1116,12 +1422,55 @@ Recommend: printable worksheets, theory notes, safety posters, practical demonst
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning the other terms.
@@ -1262,12 +1611,55 @@ Recommend: printable worksheets, cutting lists, welding procedure notes, safety 
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning the other terms.
@@ -1395,12 +1787,55 @@ Recommend: printable worksheets, design folio templates, theory notes, safety po
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 4. Do not begin planning other years.
@@ -1528,12 +1963,55 @@ Recommend: printable worksheets, code reference sheets, theory notes, cyber-safe
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 1. Do not begin planning the other terms.
@@ -1662,12 +2140,55 @@ Recommend: printable worksheets, code reference sheets, theory notes, cyber-safe
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 2. Do not begin planning the other terms.
@@ -1796,12 +2317,55 @@ Recommend: printable worksheets, code reference sheets, hardware wiring/setup gu
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning the other terms.
@@ -1930,12 +2494,55 @@ Recommend: printable worksheets, design-thinking and folio templates, code refer
 
 ⸻
 
+CRITICAL — FULL UNIT AND FULL LESSON DETAIL REQUIREMENTS
+
+You must produce a COMPLETE unit plan for the entire term/unit.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code) and any other required curriculum codes
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to the full lesson duration)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for each year level in the class
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Write every week and every lesson completely. Every lesson must have unique content detail.
+
+⸻
+
 Output Requirements
+
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term/unit.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson is complete. Do not stop early with a summary.
 
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 4. Do not begin planning other years.
