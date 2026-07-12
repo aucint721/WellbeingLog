@@ -3,6 +3,11 @@
 Complete, ready-to-use prompts for Corella. Every prompt is fully written out — nothing
 to edit. Save each one in your Corella library or copy a box and send.
 
+**Important:** These prompts now explicitly require a FULL unit plan with EVERY lesson
+written out in detail, including lesson content, Ploughback, I Do, We Do and You Do.
+If Corella stops early, reply: "Continue with Part 2 — write the remaining weeks and
+lessons in full with Ploughback, I Do, We Do and You Do for every lesson."
+
 ## How to use
 
 1. Find the subject and term below.
@@ -135,10 +140,19 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
 
-Develop a complete week-by-week teaching program for the entire term.
-For every teaching week, divide the week into the five actual lessons taught.
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For every teaching week, divide the week into the five actual lessons taught, and write each lesson separately:
 
 Lesson 1 (70 minutes)
 Lesson 2 (70 minutes)
@@ -146,34 +160,32 @@ Lesson 3 (70 minutes)
 Lesson 4 (70 minutes)
 Lesson 5 (70 minutes)
 
-For each lesson include:
-Learning Intention
-Success Criteria
-Lesson timings (e.g. Welcome – 5 min, Number talk/warm-up – 10 min, Explicit teaching – 15 min, Guided practice – 15 min, Independent/small-group work – 15 min, Reflection – 10 min)
-Starter or number talk
-Review of prior learning
-Explicit instruction
-Teacher modelling
-Guided practice
-Independent or small-group activities
-Use of manipulatives
-Literacy and oral language focus (mathematical vocabulary)
-Numeracy focus
-Aboriginal and Torres Strait Islander perspectives (where authentic)
-Required resources
-Teacher preparation
-Formative assessment
-Reflection
-Exit ticket or sharing activity
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
 
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in each lesson.
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific mathematics content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the worked examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson (including manipulatives)
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
 
 Across each week, balance fluency, conceptual understanding and problem-solving rather than five identical lesson types.
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching model combined with hands-on exploration, with realistic timings achievable within 70 minutes.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
 Include regular opportunities for number talks, guided groups and independent practice.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -204,10 +216,18 @@ Recommend: printable worksheets, array cards, equal-group materials, game templa
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland Mathematics teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland Mathematics teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning Term 4.
@@ -312,20 +332,45 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
 
-Develop a complete week-by-week teaching program for the entire term.
-For every teaching week, divide the week into the five actual lessons taught (Lesson 1–5, each 70 minutes).
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
 
-For each lesson include:
-Learning Intention; Success Criteria; Lesson timings; Number talk/warm-up; Review; Explicit instruction; Teacher modelling; Guided practice; Independent or small-group activities; Use of manipulatives and measurement tools; Mathematical vocabulary; Aboriginal and Torres Strait Islander perspectives (where authentic); Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket.
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in each lesson.
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For every teaching week, divide the week into the five actual lessons taught (Lesson 1–5, each 70 minutes), and write each lesson separately.
+
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific mathematics content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the worked examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson (including manipulatives and measurement tools)
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
 
 Across each week, balance fractions, measurement and data rather than teaching them as completely isolated strands every day; integrate where meaningful.
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching model combined with hands-on exploration, achievable within 70 minutes.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -347,9 +392,18 @@ Recommend: fraction kits, measurement tools, data collection templates, game tem
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Provide sufficient detail so that another Queensland Mathematics teacher could confidently teach the entire term.
-Do not abbreviate sections or provide summaries.
+Another Queensland Mathematics teacher must be able to teach every lesson from this document without inventing missing steps.
 
 Focus exclusively on Term 4.
 
@@ -452,17 +506,45 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
+
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
 
 Develop a complete week-by-week teaching program for the entire term (10 weeks, 1 lesson per week).
+Write each lesson separately.
 
-Lesson (70 minutes)
-Include: Learning Intention; Success Criteria; Lesson timings (e.g. Welcome and review – 5 min, Explicit teaching – 15 min, Inquiry/map activity – 25 min, Guided practice – 15 min, Reflection and exit – 10 min); Starter activity; Review of prior learning; Explicit instruction; Teacher modelling of geographical skills; Guided source/map analysis; Independent or collaborative inquiry tasks; Literacy focus; Numeracy connections (direction, distance, scale beginnings); Aboriginal and Torres Strait Islander perspectives (where authentic); Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket or summary task.
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in this lesson.
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration (70 minutes)
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific geographical content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled (including map/source analysis), and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / collaborative practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching and inquiry model with realistic timings achievable within 70 minutes.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model, combined with inquiry.
+Every lesson must include ploughback of prior learning.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -492,10 +574,18 @@ Recommend: map packs, place photo sets, graphic organisers, vocabulary lists, wr
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland Geography teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland Geography teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning Term 4.
@@ -602,16 +692,46 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
+
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
 
 Develop a complete week-by-week teaching program for the entire term (10 weeks, 1 × 70-minute lesson per week).
-Each lesson must include: Learning Intention; Success Criteria; Lesson timings; Starter; Review; Explicit instruction; Teacher modelling; Guided inquiry/map/fieldwork-style activity; Independent or collaborative tasks; Literacy focus; Numeracy connections; Aboriginal and Torres Strait Islander perspectives (where authentic); Sustainability focus; Required resources; Teacher preparation; Formative assessment; Reflection; Exit ticket.
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in each lesson.
+Write each lesson separately.
+
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
+
+A. Week number, lesson number and duration (70 minutes)
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific geographical content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / collaborative practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
+
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
+Include at least one simple school-grounds or local observation activity where practical and safe.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching and inquiry model with realistic timings achievable within 70 minutes.
-Include at least one simple school-grounds or local observation activity where practical and safe.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model, combined with inquiry.
+Every lesson must include ploughback of prior learning.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -633,9 +753,17 @@ Recommend: environment photo packs, map packs, fieldwork observation sheets, gra
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present using professional headings, tables and clearly organised sections suitable for immediate classroom use.
-Provide sufficient detail so that another Queensland Geography teacher could confidently teach the entire term.
-Do not abbreviate sections or provide summaries.
+Another Queensland Geography teacher must be able to teach every lesson from this document without inventing missing steps.
 
 Focus exclusively on Term 4.
 

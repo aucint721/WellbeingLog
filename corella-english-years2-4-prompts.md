@@ -3,6 +3,11 @@
 Complete, ready-to-use prompts for Corella. Every prompt is fully written out — nothing
 to edit. Save each one in your Corella library or copy a box and send.
 
+**Important:** These prompts now explicitly require a FULL unit plan with EVERY lesson
+written out in detail, including lesson content, Ploughback, I Do, We Do and You Do.
+If Corella stops early, reply: "Continue with Part 2 — write the remaining weeks and
+lessons in full with Ploughback, I Do, We Do and You Do for every lesson."
+
 ## How to use
 
 1. Find the term below.
@@ -131,10 +136,19 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
 
-Develop a complete week-by-week teaching program for the entire term.
-For every teaching week, divide the week into the five actual lessons taught.
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For every teaching week, divide the week into the five actual lessons taught, and write each lesson separately:
 
 Lesson 1 (70 minutes)
 Lesson 2 (70 minutes)
@@ -142,34 +156,32 @@ Lesson 3 (70 minutes)
 Lesson 4 (70 minutes)
 Lesson 5 (70 minutes)
 
-For each lesson include:
-Learning Intention
-Success Criteria
-Lesson timings (e.g. Welcome – 5 min, Review – 5 min, Explicit teaching – 15 min, Guided practice – 15 min, Independent/small-group work – 20 min, Sharing and reflection – 10 min)
-Starter or warm-up (oral language, phonics/spelling or vocabulary)
-Review of prior learning
-Explicit instruction
-Teacher modelling (including modelled writing and think-alouds for reading)
-Guided practice
-Independent or small-group activities (including guided reading/writing groups where appropriate)
-Literacy focus (reading, writing, speaking and/or listening)
-Literature focus
-Language focus (grammar, vocabulary, spelling)
-Aboriginal and Torres Strait Islander perspectives (where authentic)
-Required resources
-Teacher preparation
-Formative assessment
-Reflection
-Exit ticket or sharing activity
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
 
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in each lesson.
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
 
 Across each week, ensure a balanced mix of reading, writing, speaking and listening rather than five identical lesson types.
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching model with realistic timings achievable within 70 minutes.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
 Include regular opportunities for modelled, shared, guided and independent reading and writing.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -202,10 +214,18 @@ Recommend: core text lists, vocabulary lists, graphic organisers for narrative p
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland English teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland English teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 3. Do not begin planning Term 4.
@@ -317,10 +337,19 @@ extension opportunities
 common misconceptions
 likely student challenges
 
-4. Weekly Teaching Program
+4. Weekly Teaching Program — FULL UNIT PLAN AND EVERY LESSON IN FULL DETAIL
 
-Develop a complete week-by-week teaching program for the entire term.
-For every teaching week, divide the week into the five actual lessons taught.
+You must produce a COMPLETE unit plan for the entire term.
+You must write EVERY lesson in full.
+
+Do NOT:
+summarise weeks
+provide only sample weeks
+say "continue as above" or "similar to previous lesson"
+collapse multiple lessons into one outline
+stop after Week 1 or Week 2 with a summary of the rest
+
+For every teaching week, divide the week into the five actual lessons taught, and write each lesson separately:
 
 Lesson 1 (70 minutes)
 Lesson 2 (70 minutes)
@@ -328,35 +357,33 @@ Lesson 3 (70 minutes)
 Lesson 4 (70 minutes)
 Lesson 5 (70 minutes)
 
-For each lesson include:
-Learning Intention
-Success Criteria
-Lesson timings (e.g. Welcome – 5 min, Review – 5 min, Explicit teaching – 15 min, Guided practice – 15 min, Independent/small-group work – 20 min, Sharing and reflection – 10 min)
-Starter or warm-up (oral language, phonics/spelling or vocabulary)
-Review of prior learning
-Explicit instruction
-Teacher modelling (including modelled writing and think-alouds for reading persuasive/multimodal texts)
-Guided practice
-Independent or small-group activities (including guided reading/writing groups where appropriate)
-Literacy focus (reading, writing, speaking and/or listening)
-Literature/text focus
-Language focus (grammar, vocabulary, spelling)
-Multimodal creation opportunities where appropriate
-Aboriginal and Torres Strait Islander perspectives (where authentic)
-Required resources
-Teacher preparation
-Formative assessment
-Reflection
-Exit ticket or sharing activity
+CRITICAL — for EVERY lesson include ALL of the following in full detail:
 
-Cite the specific Australian Curriculum Version 9 content descriptor codes addressed in each lesson.
+A. Week number, lesson number and duration
+B. Learning Intention
+C. Success Criteria
+D. Australian Curriculum Version 9 content descriptor codes (cited by code)
+E. Lesson content / focus — the specific content being taught today (not a vague theme)
+F. Exact lesson timings for each phase (must add up to 70 minutes)
+G. Ploughback — explicit ploughback of prior learning: what previous knowledge/skills are being revisited, how the ploughback is taught, and for how many minutes
+H. I Do (Teacher modelling) — exact teacher instructions: what the teacher says and does, what is modelled, and the examples used (including modelled writing and think-alouds for reading persuasive/multimodal texts)
+I. We Do (Guided practice) — exact guided practice instructions: what teacher and students do together, prompts used, and checks for understanding
+J. You Do (Independent / small-group practice) — exact tasks students complete, including differentiation notes for Year 2, Year 3 and Year 4
+K. Resources and materials needed for that lesson
+L. Formative assessment / checks for understanding during the lesson
+M. Reflection / exit ticket
+N. Plough-forward note — what will be revisited or built on in the next lesson
 
 Across each week, ensure a balanced mix of reading, writing, speaking and listening rather than five identical lesson types.
+Include multimodal creation opportunities where appropriate.
+Write Weeks 1–10 completely. Every lesson must have unique content detail.
 
 5. Lesson Design
 
-Each lesson should follow an Explicit Teaching model with realistic timings achievable within 70 minutes.
+Every lesson must follow Explicit Teaching using the I Do / We Do / You Do model.
+Every lesson must include ploughback of prior learning.
 Include regular opportunities for modelled, shared, guided and independent reading and writing, plus oral presentation practice.
+Timings must be realistic and achievable within 70 minutes.
 
 6. Differentiation
 
@@ -389,10 +416,18 @@ Recommend: core persuasive/multimodal text examples, vocabulary lists, graphic o
 
 Output Requirements
 
+You must produce a FULL unit plan AND a FULL lesson-by-lesson teaching sequence for every lesson in the term.
+Every lesson must include unique lesson content plus I Do, We Do, You Do and Ploughback sections written out in full.
+
+Do NOT abbreviate, summarise, sample, or truncate.
+Do NOT write "similar to previous lesson", "continue this pattern", or "repeat structure from Week 1".
+Do NOT provide only exemplar weeks.
+
+If a response length limit is reached, continue in a clearly labelled Part 2, Part 3, and further parts until every lesson for Weeks 1–10 is complete. Do not stop early with a summary.
+
 Present the response using professional headings, tables and clearly organised sections suitable for immediate classroom use.
 Where possible, explain the educational reasoning behind recommendations rather than simply listing information.
-Provide sufficient detail so that another Queensland English teacher could confidently teach the entire term using this document.
-Do not abbreviate sections or provide summaries.
+Another Queensland English teacher must be able to teach every lesson from this document without inventing missing steps.
 Produce a comprehensive planning document suitable for direct implementation in a regional/remote Queensland school.
 
 Focus exclusively on Term 4. Do not begin planning other years.
